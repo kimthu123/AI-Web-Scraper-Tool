@@ -1,212 +1,156 @@
-🌐 AI Web Scraper — Intelligent Research Automation
+# 🚀 AI Web Scraper Tool  
+An AI-powered research scraper that automatically expands user queries, collects articles from multiple academic sources, filters duplicates, and outputs structured JSON data.  
+Designed to speed up research — especially for topics like **AI tackling climate change**.
 
-A project by Jace (Thu Tran)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kimthu123/AI-Web-Scraper-Tool/main/preview.png" width="85%" alt="Project Preview"/>
+</p>
 
-An AI-powered research scraper that automatically expands user queries, collects academic articles, cleans data, and produces structured research insights in seconds.
+---
 
-This tool helps reduce manual searching, speeds up research, and demonstrates how AI + automation can accelerate real-world workflows.
+## 🏷️ Badges
 
-✨ Overview
+<p align="left">
+  <img src="https://img.shields.io/badge/Language-Python-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/AI-OpenAI%20API-orange?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Scraper-Async%20Requests-green?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Output-JSON-success?style=flat-square"/>
+</p>
 
-The AI Web Scraper takes a single topic—like “AI for climate change”—and automatically:
+---
 
-Expands it into multiple meaningful subtopics using AI
+## 🌟 Overview  
+This scraper automates research by:
 
-Scrapes relevant articles from research sources (arXiv, Semantic Scholar, etc.)
+- 🤖 Using **AI to expand** a user-generated query into multiple relevant subtopics.  
+- 🔎 Scraping articles from **arXiv, Semantic Scholar**, and more.  
+- 🧹 Cleaning and **deduplicating metadata**.  
+- 📦 Exporting everything into a clean **JSON dataset**.  
+- ⚡ Running fast using asynchronous Python scraping.
 
-Cleans, formats, and filters the raw data
+The tool is modular, extendable, and designed for real-world research workflows.
 
-Builds structured JSON output
+---
 
-(Optional) Summarises content using AI
+## ✨ Key Features
 
-This project was originally built for a client project about
-“Mapping AI innovations for climate change solutions.”
+### 🤖 AI Topic Expansion  
+Uses **OpenAI GPT models** to transform one query into multiple subtopics.
 
-🚀 Core Features
-🔹 1. AI-Powered Topic Expansion
+### 🔍 Multi-Source Scraping  
+Collects articles based on each subtopic.  
+Built with modular functions so new sources can easily be added.
 
-Uses OpenAI (GPT-3.5 or GPT-4) to transform one user query into 10–20 relevant research directions.
+### 🧹 Smart Filtering  
+- Duplicate removal  
+- Metadata normalization  
+- Summary cleaning  
+- Relevance filtering  
 
-Example:
-Input:
+### 📦 JSON Output  
+Produces a clean JSON file ready for dashboards, ML pipelines, or external integrations.
 
-"AI for climate change"
+---
 
+## 🛠 Tech Stack
 
-Expanded automatically to:
+- 🐍 **Python 3**  
+- 🤖 **OpenAI API (GPT-3.5 / GPT-4)**  
+- 🌐 **aiohttp / Requests**  
+- 🧼 **BeautifulSoup / lxml**  
+- 📁 **JSON output**  
+- 🧰 Optional: **VS Code Devcontainers**
 
-AI for flood prediction
+---
 
-Carbon modelling & simulations
+## 📁 Project Structure
 
-Satellite image ML
-
-Renewable energy optimisation
-
-AI for heatwave forecasting
-
-Grid stability using machine learning
-
-🔹 2. High-Speed Web Scraping
-
-Scrapes dozens to hundreds of articles per run
-
-Supports multiple data sources
-
-Async scraping for faster performance
-
-Handles pagination & rate limits
-
-🔹 3. Smart Filtering & Deduplication
-
-Removes repeated papers
-
-Normalises formats
-
-Cleans metadata (authors, abstract, published date)
-
-Rejects irrelevant results
-
-🔹 4. Clean JSON Output
-
-Optimised for:
-
-dashboards
-
-ML models
-
-research review
-
-automation pipelines
-
-🔹 5. Modular Architecture
-
-Each feature is an independent module:
-
-Expansion
-
-Scraper
-
-Filters
-
-Output JSON
-
-Easy to plug in new data sources or swap tools.
-
-🧠 AI Integration Details
-Query Expansion
-
-OpenAI generates subtopics like:
-
-AI for wildfire prediction
-Satellite ML for climate monitoring
-AI for crop yield forecasting
-Energy optimisation with machine learning
-AI + IoT for environmental sensing
-
-Article Insight Extraction (Optional)
-
-AI can also:
-
-summarise articles
-
-extract key ideas
-
-group by topic
-
-evaluate relevance
-
-🏗 Tech Stack
-Layer	Tools
-🧠 AI Model	OpenAI GPT-3.5 / GPT-4
-🌐 Scraping	requests, aiohttp, BeautifulSoup
-⚙️ Backend Logic	Python 3
-🗂 Data	JSON, async pipelines
-🧪 Dev Tools	VSCode, devcontainers, GitHub
-📂 Project Structure
+```
 ai-web-scraper/
 │
-├── expand_query.py       # AI-powered topic expansion
-├── scraper.py            # Main scraping logic
-├── filters.py            # Cleansing & dedupe logic
-├── utils/
-│   └── clean_text.py     # Text preprocessing (optional)
+├── expand_query.py       # AI expansion
+├── scraper.py            # Main scraping engine
+├── filters.py            # Filtering + cleanup
 ├── output/
-│   └── articles.json     # Final structured dataset
-└── README.md             # You're reading it
+│   └── articles.json     # Exported file
+└── README.md
+```
 
-🌱 Why I Built This
+---
 
-As a Software Development student exploring AI-assisted engineering, I wanted to create a tool that:
+## ⚙️ How It Works
 
-reduces repetitive research tasks
+1. User enters a research topic  
+2. AI expands it into multiple subtopics  
+3. Scraper gathers articles for each one  
+4. Filters clean the metadata  
+5. Output saved as JSON  
+6. Optional: Summaries via OpenAI  
 
-speeds up topic exploration
+---
 
-automates scraping + processing
+## 🚀 Installation
 
-helps people find insights quickly
+Install dependencies:
 
-showcases how AI + scripting works together
-
-This project taught me a lot about:
-
-✨ API integration
-✨ async Python
-✨ prompt engineering
-✨ data pipelines
-✨ and how to structure real-world tools
-
-🧪 How It Works (Flow)
-User Topic
-   ↓
-AI Query Expansion (GPT)
-   ↓
-Scraper fetches articles
-   ↓
-Data cleaning + dedupe
-   ↓
-JSON output
-
-▶️ How to Run
-1. Install dependencies
+```
 pip install -r requirements.txt
+```
 
-2. Add your OpenAI API key
+Add your OpenAI API key inside `.env`:
 
-Create .env file:
-
+```
 OPENAI_API_KEY=your_key_here
+```
 
-3. Run the scraper
+Run the scraper:
+
+```
 python scraper.py
+```
 
-4. See your results
+Output file:
+
+```
 output/articles.json
+```
 
-📊 Example Output
+---
+
+## 📄 Example Output
+
+```
 {
-  "title": "AI-Assisted Climate Modelling",
-  "authors": ["J. Smith", "L. Wang"],
-  "published": "2024-01-12",
-  "summary": "Machine learning models enhance climate prediction accuracy...",
+  "title": "Using AI for Climate Prediction",
+  "authors": ["J. Smith", "L. Johnson"],
+  "published": "2024-02-10",
+  "summary": "This paper explores...",
   "source": "arXiv",
-  "topic": "AI for extreme weather",
+  "topic": "AI for extreme weather prediction",
   "link": "https://arxiv.org/..."
 }
+```
 
-🤝 Contributions
+---
 
-Open to PRs, improvements, new features, or new scraping sources!
-Ideas welcomed 💡
+## 🎯 Purpose  
+This project aims to automate academic research by:
 
-💌 Contact
+- Reducing manual search time  
+- Improving coverage across multiple research areas  
+- Producing structured data for future AI analysis  
+- Helping teams work faster with automated article extraction  
 
-📍 Melbourne, Australia
-📧 Email: trankimthu.160503@gmail.com
+---
 
-🐙 GitHub: github.com/kimthu123
+## 📬 Contact
+
+**Jace (Kim Thu Tran)**  
+📍 Melbourne, Australia  
+📧 Email: trankimthu.160503@gmail.com  
+🐙 GitHub: https://github.com/kimthu123  
 🔗 LinkedIn: https://www.linkedin.com/in/kim-thu-tran-769211279/
 
-<p align="center"> <i>Thanks for checking out my AI Web Scraper — hope it helps or inspires your next idea ✨</i> </p>
+<p align="center">
+  <i>Thank you for checking out this project 💛</i>
+</p>
