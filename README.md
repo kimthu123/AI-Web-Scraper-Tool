@@ -100,7 +100,7 @@ pip install -r requirements.txt
 Add your OpenAI API key inside `.env`:
 
 ```
-OPENAI_API_KEY=your_key_here
+OPENAI_API_KEY= ...
 ```
 
 Run the scraper:
