@@ -1,0 +1,102 @@
+[
+  {
+    "title": "The structure of the climate debate",
+    "date": "2016-08-19",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Richard S. J. Tol",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/1608.05597v1"
+    },
+    "publicTags": [],
+    "summary": "First-best climate policy is a uniform carbon tax which gradually rises over\ntime. Civil servants have complicated climate policy to expand bureaucracies,\npoliticians to create rents. Environmentalists have exaggerated climate change\nto gain influence, other activists have joined the climate bandwagon. Opponents\nto climate policy have attacked the weaknesses in climate research. The climate\ndebate is convoluted and polarized as a result, and climate policy complex.\nClimate policy should become easier and more rational as the Paris Agreement\nhas shifted climate policy back towards national governments. Changing\npolitical priorities, austerity, and a maturing bureaucracy should lead to a\nmore constructive climate debate.",
+    "sourceUrl": "http://arxiv.org/abs/1608.05597v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>First-best climate policy is a uniform carbon tax which gradually rises over\ntime. Civil servants have complicated climate policy to expand bureaucracies,\npoliticians to create rents. Environmentalists have exaggerated climate change\nto gain influence, other activists have joined the climate bandwagon. Opponents\nto climate policy have attacked the weaknesses in climate research. The climate\ndebate is convoluted and polarized as a result, and climate policy complex.\nClimate policy should become easier and more rational as the Paris Agreement\nhas shifted climate policy back towards national governments. Changing\npolitical priorities, austerity, and a maturing bureaucracy should lead to a\nmore constructive climate debate.</p>"
+  },
+  {
+    "title": "Climate Science and Control Engineering: Insights, Parallels, and\n  Connections",
+    "date": "2025-04-29",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "AI for Climate Change"
+    ],
+    "author": {
+      "name": "Salma M. Elsherif",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2504.21153v2"
+    },
+    "publicTags": [],
+    "summary": "Climate science is the multidisciplinary field that studies the Earth's\nclimate and its evolution. At the very core of climate science are\nindispensable climate models that predict future climate scenarios, inform\npolicy decisions, and dictate how a country's economy should change in light of\nthe changing climate. Climate models capture a wide range of interacting\ndynamic processes via extremely complex ordinary and partial differential\nequations. To model these large-scale complex processes, climate science\nleverages supercomputers, advanced simulations, and statistical methods to\npredict future climate. An area of engineering that is rarely studied in\nclimate science is control engineering. Given that climate systems are\ninherently dynamic, it is intuitive to analyze them within the framework of\ndynamic system science. This perspective has been underexplored in the\nliterature. In this manuscript, we provide a tutorial that: (i) introduces the\ncontrol engineering community to climate dynamics and modeling, including\nspatiotemporal scales and challenges in climate modeling; (ii) offers a fresh\nperspective on climate models from a control systems viewpoint; and (iii)\nexplores the relevance and applicability of various advanced graph and network\ncontrol-based approaches in building a physics-informed framework for learning,\ncontrol and estimation in climate systems. We also present simple and then more\ncomplex climate models, depicting fundamental ideas and processes that are\ninstrumental in building climate change projections. This tutorial also builds\nparallels and observes connections between various contemporary problems at the\nforefront of climate science and their control theoretic counterparts. We\nspecifically observe that an abundance of climate science problems can be\nlinguistically reworded and mathematically framed as control theoretic ones.",
+    "sourceUrl": "http://arxiv.org/abs/2504.21153v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Climate science is the multidisciplinary field that studies the Earth's\nclimate and its evolution. At the very core of climate science are\nindispensable climate models that predict future climate scenarios, inform\npolicy decisions, and dictate how a country's economy should change in light of\nthe changing climate. Climate models capture a wide range of interacting\ndynamic processes via extremely complex ordinary and partial differential\nequations. To model these large-scale complex processes, climate science\nleverages supercomputers, advanced simulations, and statistical methods to\npredict future climate. An area of engineering that is rarely studied in\nclimate science is control engineering. Given that climate systems are\ninherently dynamic, it is intuitive to analyze them within the framework of\ndynamic system science. This perspective has been underexplored in the\nliterature. In this manuscript, we provide a tutorial that: (i) introduces the\ncontrol engineering community to climate dynamics and modeling, including\nspatiotemporal scales and challenges in climate modeling; (ii) offers a fresh\nperspective on climate models from a control systems viewpoint; and (iii)\nexplores the relevance and applicability of various advanced graph and network\ncontrol-based approaches in building a physics-informed framework for learning,\ncontrol and estimation in climate systems. We also present simple and then more\ncomplex climate models, depicting fundamental ideas and processes that are\ninstrumental in building climate change projections. This tutorial also builds\nparallels and observes connections between various contemporary problems at the\nforefront of climate science and their control theoretic counterparts. We\nspecifically observe that an abundance of climate science problems can be\nlinguistically reworded and mathematically framed as control theoretic ones.</p>"
+  },
+  {
+    "title": "Climate Change 2021 – The Physical Science Basis",
+    "date": "2023-01-01",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Intergovernmental Panel on Climate Change",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/c0a737a5f1bcc70c368991c9daec41056894337e"
+    },
+    "publicTags": [],
+    "summary": "The Working Group I contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive assessment of the physical science basis of climate change. It considers in situ and remote observations; paleoclimate information; understanding of climate drivers and physical, chemical, and biological processes and feedbacks; global and regional climate modelling; advances in methods of analyses; and insights from climate services. It assesses the current state of the climate; human influence on climate in all regions; future climate change including sea level rise; global warming effects including extremes; climate information for risk assessment and regional adaptation; limiting climate change by reaching net zero carbon dioxide emissions and reducing other greenhouse gas emissions; and benefits for air quality. The report serves policymakers, decision makers, stakeholders, and all interested parties with the latest policy-relevant information on climate change. Available as Open Access on Cambridge Core.",
+    "sourceUrl": "https://www.semanticscholar.org/paper/c0a737a5f1bcc70c368991c9daec41056894337e",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>The Working Group I contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive assessment of the physical science basis of climate change. It considers in situ and remote observations; paleoclimate information; understanding of climate drivers and physical, chemical, and biological processes and feedbacks; global and regional climate modelling; advances in methods of analyses; and insights from climate services. It assesses the current state of the climate; human influence on climate in all regions; future climate change including sea level rise; global warming effects including extremes; climate information for risk assessment and regional adaptation; limiting climate change by reaching net zero carbon dioxide emissions and reducing other greenhouse gas emissions; and benefits for air quality. The report serves policymakers, decision makers, stakeholders, and all interested parties with the latest policy-relevant information on climate change. Available as Open Access on Cambridge Core.</p>"
+  },
+  {
+    "title": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+    "date": "2023-01-01",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Climate Adaptation"
+    ],
+    "author": {
+      "name": "Dr. Kirstin K. Holsman",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/2f609099c16f84861bb18bdedf784d13d9610cc1"
+    },
+    "publicTags": [],
+    "summary": "The Working Group II contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive assessment of the scientific literature relevant to climate change impacts, adaptation and vulnerability. The report recognizes the interactions of climate, ecosystems and biodiversity, and human societies, and integrates across the natural, ecological, social and economic sciences. It emphasizes how efforts in adaptation and in reducing greenhouse gas emissions can come together in a process called climate resilient development, which enables a liveable future for biodiversity and humankind. The IPCC is the leading body for assessing climate change science. IPCC reports are produced in comprehensive, objective and transparent ways, ensuring they reflect the full range of views in the scientific literature. Novel elements include focused topical assessments, and an atlas presenting observed climate change impacts and future risks from global to regional scales. Available as Open Access on Cambridge Core.",
+    "sourceUrl": "https://www.semanticscholar.org/paper/2f609099c16f84861bb18bdedf784d13d9610cc1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>The Working Group II contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive assessment of the scientific literature relevant to climate change impacts, adaptation and vulnerability. The report recognizes the interactions of climate, ecosystems and biodiversity, and human societies, and integrates across the natural, ecological, social and economic sciences. It emphasizes how efforts in adaptation and in reducing greenhouse gas emissions can come together in a process called climate resilient development, which enables a liveable future for biodiversity and humankind. The IPCC is the leading body for assessing climate change science. IPCC reports are produced in comprehensive, objective and transparent ways, ensuring they reflect the full range of views in the scientific literature. Novel elements include focused topical assessments, and an atlas presenting observed climate change impacts and future risks from global to regional scales. Available as Open Access on Cambridge Core.</p>"
+  }
+]

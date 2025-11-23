@@ -1,0 +1,647 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Article Search & Saver</title>
+    <style>
+        :root {
+            --bg: #FFFFFF;
+            --card: #141a2a;
+            --text: #002353;
+            --muted: rgb(0, 21, 66);
+            --primary: #4da3ff;
+            --danger: #ff6b6b;
+            --border: #263048;
+            --accent: #7cc4ff;
+            --heading: rgb(0, 162, 255);
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            color: var(--text);
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+            background: radial-gradient(circle at center, #ffffff 0%, #f0f4ff 40%, #d9e2ff 80%, #c0d1ff 100%);
+            background-size: 200% 200%;
+            animation: slowFade 60s ease-in-out infinite;
+            transition: background 10s ease;
+        }
+
+        @keyframes slowFade {
+            0%, 100% {
+                background-position: center center;
+            }
+
+            50% {
+                background-position: center 10%;
+            }
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background: #FFFFFF;
+            backdrop-filter: blur(6px);
+            border-bottom: 1px solid rgba(38, 48, 72, 0.5);
+            box-shadow: 0 4px 6px -3px rgba(38, 48, 72, 0.3);
+            padding: 16px;
+        }
+
+            header h1 {
+                margin: 0 0 8px;
+                font-size: 20px;
+                font-weight: 600;
+                letter-spacing: 0.02em;
+                color: var(--heading);
+            }
+
+            header form {
+                display: flex;
+                gap: 8px;
+                align-items: center
+            }
+
+        input[type="search"], input[type="number"] {
+            padding: 10px 12px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            background: #002353;
+            color: #ffffff;
+            font-weight: 600;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+            input[type="search"]:focus, input[type="number"]:focus {
+                outline: none;
+                background: #001a4d;
+                border-color: var(--primary);
+            }
+
+        input[type="search"] {
+            flex: 1
+        }
+
+        input[type="number"] {
+            width: 90px
+        }
+
+        button {
+            padding: 10px 14px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: var(--primary);
+            color: #ffffff;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+        }
+
+            button:hover {
+                background-color: #002353;
+                color: var(--accent);
+                border-color: var(--accent);
+            }
+
+        main {
+            max-width: 1200px;
+            margin: 24px auto;
+            padding: 0 16px;
+            display: grid;
+            grid-template-columns: 2fr 1.2fr 0.9fr;
+            gap: 24px
+        }
+
+        section h2, aside h2 {
+            margin: 0 0 12px;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--heading);
+        }
+
+        .actions {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin: 0 0 12px
+        }
+
+        .card-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            gap: 12px
+        }
+
+        .card {
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            border: 1px solid var(--border);
+            background: var(--card);
+            border-radius: 12px;
+            color: white;
+        }
+
+        .meta h3 {
+            margin: 0 0 4px;
+            font-size: 15px;
+            color: #ffffff;
+        }
+
+        .meta .sub {
+            margin: 0;
+            color: #ffffff;
+            font-size: 12px
+        }
+
+        .btn {
+            padding: 4px 10px;
+            border-radius: 8px;
+            background: #4da3ff;
+            border: 1px solid #4da3ff;
+            color: var(--text);
+            text-decoration: none;
+            font-size: 13px;
+            display: inline-block;
+            font-weight: 700;
+            transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+        }
+
+            .btn:hover {
+                background-color: #002353;
+                color: #7cc4ff;
+                border-color: #7cc4ff;
+            }
+
+            .btn.primary {
+                background: var(--primary);
+                padding: 5px 10px;
+                color: #ffffff;
+                font-weight: 700;
+                font-size: 13px;
+                transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+            }
+
+                .btn.primary.save {
+                    border: 1px solid #4da3ff;
+                }
+
+        #results-list .btn.primary.save:hover {
+            background-color: #002353;
+            color: #7cc4ff;
+            border-color: #7cc4ff;
+        }
+
+        .btn.danger {
+            background: var(--danger);
+            color: #2b0b0b;
+            font-weight: 700;
+        }
+
+        .btn.primary:hover {
+            background-color: #002353;
+            color: #7cc4ff;
+            border-color: #002353;
+        }
+
+        .muted {
+            color: var(--muted);
+            padding: 12px
+        }
+
+        .error {
+            color: #e63946;
+            padding: 12px;
+            border: 1px solid #e63946;
+            background: #ffe6e9;
+            border-radius: 10px
+        }
+
+        footer {
+            padding: 16px;
+            text-align: center;
+            color: var(--muted);
+            border-top: 1px solid rgba(69, 75, 88, 0.5);
+            box-shadow: 0 -8px 12px -6px rgba(128, 128, 128, 0.5);
+        }
+
+        .small {
+            font-size: 12px;
+            color: var(--muted)
+        }
+
+        /* History */
+        aside.history {
+            border-left: 1px solid var(--border);
+            padding-left: 8px;
+        }
+
+        .history-toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px
+        }
+
+        .history-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            gap: 6px;
+            max-height: 70vh;
+            overflow: auto
+        }
+
+        .history-item {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 8px;
+            align-items: center;
+            background: #002353;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+            .history-item .q {
+                font-size: 14px;
+                line-height: 1.25;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: #ffffff;
+            }
+
+            .history-item .ts {
+                font-size: 11px;
+                color: #ffffff;
+            }
+
+            .history-item .actions {
+                display: flex;
+                gap: 6px
+            }
+
+        .icon-btn {
+            border: 1px solid var(--border);
+            background: var(--primary);
+            color: var(--text);
+            padding: 6px 8px;
+            border-radius: 8px;
+            cursor: pointer
+        }
+
+            .icon-btn:hover {
+                border-color: var(--accent)
+            }
+
+        .history-clear {
+            border: 1px dashed var(--border);
+            background: #002353;
+            color: #ffffff;
+            padding: 6px 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+        }
+
+        .history-empty {
+            color: var(--muted);
+            padding: 6px 0
+        }
+
+        /*On hover, change these colors*/
+        .icon-btn.open:hover,
+        .icon-btn.open:focus,
+        .icon-btn.delete:hover,
+        .icon-btn.delete:focus,
+        .history-clear:hover,
+        .history-clear:focus {
+            background-color: #ffffff;
+            color: #002353;
+            border-color: #002353;
+        }
+
+        #results-list .btn.primary {
+            background: var(--primary);
+            color: #002353;
+            font-weight: 700;
+            border: 1px solid var(--primary);
+            transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+        }
+
+            #results-list .btn.primary:hover {
+                background-color: #002353;
+                color: var(--accent);
+                border-color: #002353;
+            }
+
+        @media (max-width:1050px) {
+            main {
+                grid-template-columns: 1fr 1fr
+            }
+
+            aside.history {
+                grid-column: 1 / -1;
+                border-left: none;
+                padding-left: 0
+            }
+        }
+
+        @media (max-width:700px) {
+            main {
+                grid-template-columns: 1fr
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Article Search & Saver</h1>
+        <form id="search-form">
+            <input id="q" type="search" placeholder="Search for articles…" required />
+            <input id="limit" type="number" min="1" max="170" value="10" title="How many results (1–170)" />
+            <button type="submit">Search</button>
+        </form>
+        <p class="small">Frontend → <b>Flask</b>. Saved items live in your browser.</p>
+    </header>
+
+    <main>
+        <!-- LEFT: Search results -->
+        <section>
+            <h2>Search Results</h2>
+            <div id="count" class="small" style="margin:-6px 0 8px 0;"></div>
+            <div class="actions">
+                <button id="save-selected" disabled>Save selected</button>
+            </div>
+            <ul id="results-list" class="card-list"></ul>
+        </section>
+
+        <!-- MIDDLE: Saved articles + download selected -->
+        <section>
+            <h2>Saved Articles</h2>
+            <div class="actions">
+                <button id="download-selected" disabled>Download selected (JSON)</button>
+            </div>
+            <ul id="saved-list" class="card-list"></ul>
+        </section>
+
+        <!-- RIGHT: Search history -->
+        <aside class="history">
+            <div class="history-toolbar">
+                <h2 style="margin:0;">Search History</h2>
+                <button id="clear-history" class="history-clear">Clear all</button>
+            </div>
+            <ul id="history-list" class="history-list"></ul>
+        </aside>
+    </main>
+
+    <footer>
+        <small>Arcticle from arxiv</small>
+    </footer>
+
+    <script>
+        // --- helpers ---
+        const $ = s => document.querySelector(s);
+        const $$ = s => Array.from(document.querySelectorAll(s));
+        const KEY = 'savedArticlesV1';
+        const HISTORY_KEY = 'searchHistoryV1';
+        let lastResults = [];
+
+        function loadSaved() { try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch { return []; } }
+        function saveSaved(items) { localStorage.setItem(KEY, JSON.stringify(items)); }
+        function uniqBy(arr, keyFn) { const m = new Map(); for (const x of arr) m.set(keyFn(x), x); return [...m.values()]; }
+        function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" }[c])); }
+        const fmtDate = ts => new Date(ts).toLocaleString([], { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
+
+        // --- history storage ---
+        function loadHistory() { try { return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; } catch { return []; } }
+        function saveHistory(list) { localStorage.setItem(HISTORY_KEY, JSON.stringify(list)); }
+        function pushHistory(q) {
+            const now = Date.now();
+            let list = loadHistory();
+            list = list.filter(it => it.q.toLowerCase() !== q.toLowerCase());
+            list.unshift({ q, ts: now });
+            if (list.length > 50) list = list.slice(0, 50);
+            saveHistory(list); renderHistory();
+        }
+        function deleteHistory(q) { saveHistory(loadHistory().filter(it => it.q.toLowerCase() !== q.toLowerCase())); renderHistory(); }
+        function clearHistory() { saveHistory([]); renderHistory(); }
+
+        // --- UI builders ---
+        function articleCard(item, { selectable = false, saved = false } = {}) {
+            const year = item.year ? ` · ${item.year}` : '';
+            const authors = item.authors ? ` — ${item.authors}` : '';
+            const openHref = item.url || (item.doi ? `https://doi.org/${encodeURIComponent(item.doi)}` : '');
+            const pdfHref = item.pdf_url || '';
+            const checkbox = saved
+                ? '<input class="pick-saved" type="checkbox" />'
+                : (selectable ? '<input class="pick" type="checkbox" />' : '');
+            return `
+            <li class="card" data-key="${encodeURIComponent(item.doi || item.url || item.title)}">
+              ${checkbox}
+              <div class="meta">
+                <h3 title="${escapeHtml(item.title || 'Untitled')}">${escapeHtml(item.title || 'Untitled')}</h3>
+                <p class="sub">${escapeHtml(item.doi || '')}${year}${authors ? escapeHtml(authors) : ''}</p>
+              </div>
+              <div class="buttons">
+                ${openHref ? `<a class="btn" href="${openHref}" target="_blank" rel="noopener">Open</a>` : ''}
+                ${saved
+                    ? `${pdfHref ? `<a class="btn" href="${pdfHref}" target="_blank" rel="noopener">Download</a>` : ''} <button class="btn danger delete">Delete</button>`
+                    : `<button class="btn primary save">Save</button>`}
+              </div>
+            </li>`;
+        }
+
+        function renderSaved() {
+            const items = loadSaved();
+            const list = $('#saved-list');
+            if (items.length === 0) {
+                list.innerHTML = '<li class="muted">No saved articles yet.</li>';
+                $('#download-selected').disabled = true;
+                return;
+            }
+            list.innerHTML = items.map(it => articleCard(it, { saved: true })).join('');
+            refreshDownloadSelected();
+        }
+
+        function renderHistory() {
+            const list = loadHistory();
+            const ul = $('#history-list');
+            if (list.length === 0) { ul.innerHTML = '<li class="history-empty">No history yet.</li>'; return; }
+            ul.innerHTML = list.map(it => `
+            <li class="history-item" data-q="${encodeURIComponent(it.q)}">
+              <div>
+                <div class="q" title="${escapeHtml(it.q)}">${escapeHtml(it.q)}</div>
+                <div class="ts">${fmtDate(it.ts)}</div>
+              </div>
+              <div class="actions">
+                <button class="icon-btn run">Open</button>
+                <button class="icon-btn del">Delete</button>
+              </div>
+            </li>`).join('');
+        }
+
+        function refreshSaveSelected() {
+            const checked = $$('#results-list .pick:checked');
+            $('#save-selected').disabled = checked.length === 0;
+        }
+        function refreshDownloadSelected() {
+            const checked = $$('#saved-list .pick-saved:checked');
+            $('#download-selected').disabled = checked.length === 0;
+        }
+
+        // --- transform to your schema for download ---
+        function transformToArticleFormat(item) {
+            // our saved items look like: {title, doi, url, authors, year, pdf_url}
+            const summary = item.summary || item.title || "";
+            const author = item.authors || "Unknown";
+            const link = item.url || "";
+            const published = item.year ? `${item.year}-01-01` : "";
+            const source = item.source || "Unknown Source";
+
+            return {
+                title: item.title || "Untitled",
+                date: published,
+                contentGroup: "Articles",
+                internalTags: [],                 // can be filled server-side if you classify
+                author: {
+                    name: author,
+                    email: "",
+                    organization: ""
+                },
+                publication: {
+                    name: source,
+                    url: link
+                },
+                publicTags: [],
+                summary: summary,
+                sourceUrl: link,
+                language: "en",
+                readingTime: Math.max(1, Math.floor(summary.split(/\s+/).length / 200)),
+                imageUrl: "",
+                relatedContent: [],
+                content: `<p>${summary}</p>`
+            };
+        }
+
+        // --- download helper ---
+        function downloadJSON(data, filename) {
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url; a.download = filename;
+            document.body.appendChild(a); a.click(); a.remove();
+            URL.revokeObjectURL(url);
+        }
+
+        // --- search (calls Flask backend) ---
+        $('#search-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const q = $('#q').value.trim();
+            const limit = Math.min(Math.max(parseInt($('#limit').value) || 10, 1), 1000);
+            if (!q) return;
+
+            pushHistory(q);
+
+            const count = $('#count');
+            const list = $('#results-list');
+            count.textContent = '';
+            list.innerHTML = '<li class="muted">Searching…</li>';
+
+            try {
+                const res = await fetch(`/search?q=${encodeURIComponent(q)}&limit=${limit}`, { cache: 'no-store' });
+                const data = await res.json();
+                const items = data.items || data || [];
+                count.textContent = `Showing ${items.length} article(s)`;
+                if (items.length === 0) { list.innerHTML = '<li class="muted">No results found.</li>'; return; }
+                lastResults = items;
+                list.innerHTML = items.map(x => articleCard(x, { selectable: true })).join('');
+                refreshSaveSelected();
+            } catch (err) {
+                $('#results-list').innerHTML = `<li class="error">${escapeHtml(String(err))}</li>`;
+            }
+        });
+
+        // results interactions
+        $('#results-list').addEventListener('change', (e) => { if (e.target.matches('.pick')) refreshSaveSelected(); });
+        $('#results-list').addEventListener('click', (e) => {
+            if (e.target.matches('.save')) {
+                const li = e.target.closest('.card');
+                const key = decodeURIComponent(li?.dataset?.key || '');
+                const item = lastResults.find(r => (r.doi || r.url || r.title) === key);
+                if (!item) return;
+                const saved = loadSaved(); saved.push(item);
+                saveSaved(uniqBy(saved, x => x.doi || x.url || x.title)); renderSaved();
+                e.target.textContent = 'Saved'; e.target.disabled = true;
+            }
+        });
+
+        // bulk save from results
+        $('#save-selected').addEventListener('click', () => {
+            const picks = $$('#results-list .card').filter(li => li.querySelector('.pick')?.checked);
+            if (picks.length === 0) return;
+            const saved = loadSaved();
+            for (const li of picks) {
+                const key = decodeURIComponent(li.dataset.key || '');
+                const item = lastResults.find(r => (r.doi || r.url || r.title) === key);
+                if (item) saved.push(item);
+            }
+            saveSaved(uniqBy(saved, x => x.doi || x.url || x.title)); renderSaved(); refreshSaveSelected();
+        });
+
+        // saved interactions
+        $('#saved-list').addEventListener('change', (e) => {
+            if (e.target.matches('.pick-saved')) refreshDownloadSelected();
+        });
+        $('#saved-list').addEventListener('click', (e) => {
+            if (e.target.matches('.delete')) {
+                const li = e.target.closest('.card');
+                const key = decodeURIComponent(li?.dataset?.key || '');
+                const kept = loadSaved().filter(x => (x.doi || x.url || x.title) !== key);
+                saveSaved(kept); renderSaved();
+            }
+        });
+
+        // download selected (from saved)
+        $('#download-selected').addEventListener('click', () => {
+            const keys = $$('#saved-list .card')
+                .filter(li => li.querySelector('.pick-saved')?.checked)
+                .map(li => decodeURIComponent(li.dataset.key || ''));
+            if (keys.length === 0) return;
+
+            const saved = loadSaved();
+            const selected = saved
+                .filter(x => keys.includes(x.doi || x.url || x.title))
+                .map(transformToArticleFormat);
+
+            const ts = new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-');
+            downloadJSON(selected, `articles-${ts}.json`);
+        });
+
+        // history interactions
+        $('#history-list').addEventListener('click', (e) => {
+            const li = e.target.closest('.history-item'); if (!li) return;
+            const q = decodeURIComponent(li.dataset.q || '');
+            if (e.target.matches('.del')) { deleteHistory(q); }
+            else if (e.target.matches('.run')) {
+                $('#q').value = q;
+                $('#search-form').dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }));
+            }
+        });
+        $('#clear-history').addEventListener('click', clearHistory);
+
+        // initial render
+        renderSaved();
+        renderHistory();
+    </script>
+</body>
+</html>

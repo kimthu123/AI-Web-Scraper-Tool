@@ -1,0 +1,1002 @@
+[
+  {
+    "title": "Lecture Notes: Optimization for Machine Learning",
+    "date": "2019-09-08",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Elad Hazan",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/1909.03550v1"
+    },
+    "publicTags": [],
+    "summary": "Lecture notes on optimization for machine learning, derived from a course at\nPrinceton University and tutorials given in MLSS, Buenos Aires, as well as\nSimons Foundation, Berkeley.",
+    "sourceUrl": "http://arxiv.org/abs/1909.03550v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Lecture notes on optimization for machine learning, derived from a course at\nPrinceton University and tutorials given in MLSS, Buenos Aires, as well as\nSimons Foundation, Berkeley.</p>"
+  },
+  {
+    "title": "An Optimal Control View of Adversarial Machine Learning",
+    "date": "2018-11-11",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Xiaojin Zhu",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/1811.04422v1"
+    },
+    "publicTags": [],
+    "summary": "I describe an optimal control view of adversarial machine learning, where the\ndynamical system is the machine learner, the input are adversarial actions, and\nthe control costs are defined by the adversary's goals to do harm and be hard\nto detect. This view encompasses many types of adversarial machine learning,\nincluding test-item attacks, training-data poisoning, and adversarial reward\nshaping. The view encourages adversarial machine learning researcher to utilize\nadvances in control theory and reinforcement learning.",
+    "sourceUrl": "http://arxiv.org/abs/1811.04422v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>I describe an optimal control view of adversarial machine learning, where the\ndynamical system is the machine learner, the input are adversarial actions, and\nthe control costs are defined by the adversary's goals to do harm and be hard\nto detect. This view encompasses many types of adversarial machine learning,\nincluding test-item attacks, training-data poisoning, and adversarial reward\nshaping. The view encourages adversarial machine learning researcher to utilize\nadvances in control theory and reinforcement learning.</p>"
+  },
+  {
+    "title": "Minimax deviation strategies for machine learning and recognition with\n  short learning samples",
+    "date": "2017-07-16",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Michail Schlesinger",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/1707.04849v1"
+    },
+    "publicTags": [],
+    "summary": "The article is devoted to the problem of small learning samples in machine\nlearning. The flaws of maximum likelihood learning and minimax learning are\nlooked into and the concept of minimax deviation learning is introduced that is\nfree of those flaws.",
+    "sourceUrl": "http://arxiv.org/abs/1707.04849v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>The article is devoted to the problem of small learning samples in machine\nlearning. The flaws of maximum likelihood learning and minimax learning are\nlooked into and the concept of minimax deviation learning is introduced that is\nfree of those flaws.</p>"
+  },
+  {
+    "title": "Machine Learning for Clinical Predictive Analytics",
+    "date": "2019-09-19",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Wei-Hung Weng",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/1909.09246v1"
+    },
+    "publicTags": [],
+    "summary": "In this chapter, we provide a brief overview of applying machine learning\ntechniques for clinical prediction tasks. We begin with a quick introduction to\nthe concepts of machine learning and outline some of the most common machine\nlearning algorithms. Next, we demonstrate how to apply the algorithms with\nappropriate toolkits to conduct machine learning experiments for clinical\nprediction tasks. The objectives of this chapter are to (1) understand the\nbasics of machine learning techniques and the reasons behind why they are\nuseful for solving clinical prediction problems, (2) understand the intuition\nbehind some machine learning models, including regression, decision trees, and\nsupport vector machines, and (3) understand how to apply these models to\nclinical prediction problems using publicly available datasets via case\nstudies.",
+    "sourceUrl": "http://arxiv.org/abs/1909.09246v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>In this chapter, we provide a brief overview of applying machine learning\ntechniques for clinical prediction tasks. We begin with a quick introduction to\nthe concepts of machine learning and outline some of the most common machine\nlearning algorithms. Next, we demonstrate how to apply the algorithms with\nappropriate toolkits to conduct machine learning experiments for clinical\nprediction tasks. The objectives of this chapter are to (1) understand the\nbasics of machine learning techniques and the reasons behind why they are\nuseful for solving clinical prediction problems, (2) understand the intuition\nbehind some machine learning models, including regression, decision trees, and\nsupport vector machines, and (3) understand how to apply these models to\nclinical prediction problems using publicly available datasets via case\nstudies.</p>"
+  },
+  {
+    "title": "Towards Modular Machine Learning Solution Development: Benefits and\n  Trade-offs",
+    "date": "2023-01-23",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Samiyuru Menik",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2301.09753v1"
+    },
+    "publicTags": [],
+    "summary": "Machine learning technologies have demonstrated immense capabilities in\nvarious domains. They play a key role in the success of modern businesses.\nHowever, adoption of machine learning technologies has a lot of untouched\npotential. Cost of developing custom machine learning solutions that solve\nunique business problems is a major inhibitor to far-reaching adoption of\nmachine learning technologies. We recognize that the monolithic nature\nprevalent in today's machine learning applications stands in the way of\nefficient and cost effective customized machine learning solution development.\nIn this work we explore the benefits of modular machine learning solutions and\ndiscuss how modular machine learning solutions can overcome some of the major\nsolution engineering limitations of monolithic machine learning solutions. We\nanalyze the trade-offs between modular and monolithic machine learning\nsolutions through three deep learning problems; one text based and the two\nimage based. Our experimental results show that modular machine learning\nsolutions have a promising potential to reap the solution engineering\nadvantages of modularity while gaining performance and data advantages in a way\nthe monolithic machine learning solutions do not permit.",
+    "sourceUrl": "http://arxiv.org/abs/2301.09753v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Machine learning technologies have demonstrated immense capabilities in\nvarious domains. They play a key role in the success of modern businesses.\nHowever, adoption of machine learning technologies has a lot of untouched\npotential. Cost of developing custom machine learning solutions that solve\nunique business problems is a major inhibitor to far-reaching adoption of\nmachine learning technologies. We recognize that the monolithic nature\nprevalent in today's machine learning applications stands in the way of\nefficient and cost effective customized machine learning solution development.\nIn this work we explore the benefits of modular machine learning solutions and\ndiscuss how modular machine learning solutions can overcome some of the major\nsolution engineering limitations of monolithic machine learning solutions. We\nanalyze the trade-offs between modular and monolithic machine learning\nsolutions through three deep learning problems; one text based and the two\nimage based. Our experimental results show that modular machine learning\nsolutions have a promising potential to reap the solution engineering\nadvantages of modularity while gaining performance and data advantages in a way\nthe monolithic machine learning solutions do not permit.</p>"
+  },
+  {
+    "title": "Introduction to Machine Learning: Class Notes 67577",
+    "date": "2009-04-23",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Amnon Shashua",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/0904.3664v1"
+    },
+    "publicTags": [],
+    "summary": "Introduction to Machine learning covering Statistical Inference (Bayes, EM,\nML/MaxEnt duality), algebraic and spectral methods (PCA, LDA, CCA, Clustering),\nand PAC learning (the Formal model, VC dimension, Double Sampling theorem).",
+    "sourceUrl": "http://arxiv.org/abs/0904.3664v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Introduction to Machine learning covering Statistical Inference (Bayes, EM,\nML/MaxEnt duality), algebraic and spectral methods (PCA, LDA, CCA, Clustering),\nand PAC learning (the Formal model, VC dimension, Double Sampling theorem).</p>"
+  },
+  {
+    "title": "The Tribes of Machine Learning and the Realm of Computer Architecture",
+    "date": "2020-12-07",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Ayaz Akram",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2012.04105v1"
+    },
+    "publicTags": [],
+    "summary": "Machine learning techniques have influenced the field of computer\narchitecture like many other fields. This paper studies how the fundamental\nmachine learning techniques can be applied towards computer architecture\nproblems. We also provide a detailed survey of computer architecture research\nthat employs different machine learning methods. Finally, we present some\nfuture opportunities and the outstanding challenges that need to be overcome to\nexploit full potential of machine learning for computer architecture.",
+    "sourceUrl": "http://arxiv.org/abs/2012.04105v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Machine learning techniques have influenced the field of computer\narchitecture like many other fields. This paper studies how the fundamental\nmachine learning techniques can be applied towards computer architecture\nproblems. We also provide a detailed survey of computer architecture research\nthat employs different machine learning methods. Finally, we present some\nfuture opportunities and the outstanding challenges that need to be overcome to\nexploit full potential of machine learning for computer architecture.</p>"
+  },
+  {
+    "title": "A Machine Learning Tutorial for Operational Meteorology, Part I:\n  Traditional Machine Learning",
+    "date": "2022-04-15",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Randy J. Chase",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2204.07492v2"
+    },
+    "publicTags": [],
+    "summary": "Recently, the use of machine learning in meteorology has increased greatly.\nWhile many machine learning methods are not new, university classes on machine\nlearning are largely unavailable to meteorology students and are not required\nto become a meteorologist. The lack of formal instruction has contributed to\nperception that machine learning methods are 'black boxes' and thus end-users\nare hesitant to apply the machine learning methods in their every day workflow.\nTo reduce the opaqueness of machine learning methods and lower hesitancy\ntowards machine learning in meteorology, this paper provides a survey of some\nof the most common machine learning methods. A familiar meteorological example\nis used to contextualize the machine learning methods while also discussing\nmachine learning topics using plain language. The following machine learning\nmethods are demonstrated: linear regression; logistic regression; decision\ntrees; random forest; gradient boosted decision trees; naive Bayes; and support\nvector machines. Beyond discussing the different methods, the paper also\ncontains discussions on the general machine learning process as well as best\npractices to enable readers to apply machine learning to their own datasets.\nFurthermore, all code (in the form of Jupyter notebooks and Google Colaboratory\nnotebooks) used to make the examples in the paper is provided in an effort to\ncatalyse the use of machine learning in meteorology.",
+    "sourceUrl": "http://arxiv.org/abs/2204.07492v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Recently, the use of machine learning in meteorology has increased greatly.\nWhile many machine learning methods are not new, university classes on machine\nlearning are largely unavailable to meteorology students and are not required\nto become a meteorologist. The lack of formal instruction has contributed to\nperception that machine learning methods are 'black boxes' and thus end-users\nare hesitant to apply the machine learning methods in their every day workflow.\nTo reduce the opaqueness of machine learning methods and lower hesitancy\ntowards machine learning in meteorology, this paper provides a survey of some\nof the most common machine learning methods. A familiar meteorological example\nis used to contextualize the machine learning methods while also discussing\nmachine learning topics using plain language. The following machine learning\nmethods are demonstrated: linear regression; logistic regression; decision\ntrees; random forest; gradient boosted decision trees; naive Bayes; and support\nvector machines. Beyond discussing the different methods, the paper also\ncontains discussions on the general machine learning process as well as best\npractices to enable readers to apply machine learning to their own datasets.\nFurthermore, all code (in the form of Jupyter notebooks and Google Colaboratory\nnotebooks) used to make the examples in the paper is provided in an effort to\ncatalyse the use of machine learning in meteorology.</p>"
+  },
+  {
+    "title": "Understanding Bias in Machine Learning",
+    "date": "2019-09-02",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Jindong Gu",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/1909.01866v1"
+    },
+    "publicTags": [],
+    "summary": "Bias is known to be an impediment to fair decisions in many domains such as\nhuman resources, the public sector, health care etc. Recently, hope has been\nexpressed that the use of machine learning methods for taking such decisions\nwould diminish or even resolve the problem. At the same time, machine learning\nexperts warn that machine learning models can be biased as well. In this\narticle, our goal is to explain the issue of bias in machine learning from a\ntechnical perspective and to illustrate the impact that biased data can have on\na machine learning model. To reach such a goal, we develop interactive plots to\nvisualizing the bias learned from synthetic data.",
+    "sourceUrl": "http://arxiv.org/abs/1909.01866v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Bias is known to be an impediment to fair decisions in many domains such as\nhuman resources, the public sector, health care etc. Recently, hope has been\nexpressed that the use of machine learning methods for taking such decisions\nwould diminish or even resolve the problem. At the same time, machine learning\nexperts warn that machine learning models can be biased as well. In this\narticle, our goal is to explain the issue of bias in machine learning from a\ntechnical perspective and to illustrate the impact that biased data can have on\na machine learning model. To reach such a goal, we develop interactive plots to\nvisualizing the bias learned from synthetic data.</p>"
+  },
+  {
+    "title": "Position Paper: Towards Transparent Machine Learning",
+    "date": "2019-11-12",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Dustin Juliano",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/1911.06612v1"
+    },
+    "publicTags": [],
+    "summary": "Transparent machine learning is introduced as an alternative form of machine\nlearning, where both the model and the learning system are represented in\nsource code form. The goal of this project is to enable direct human\nunderstanding of machine learning models, giving us the ability to learn,\nverify, and refine them as programs. If solved, this technology could represent\na best-case scenario for the safety and security of AI systems going forward.",
+    "sourceUrl": "http://arxiv.org/abs/1911.06612v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Transparent machine learning is introduced as an alternative form of machine\nlearning, where both the model and the learning system are represented in\nsource code form. The goal of this project is to enable direct human\nunderstanding of machine learning models, giving us the ability to learn,\nverify, and refine them as programs. If solved, this technology could represent\na best-case scenario for the safety and security of AI systems going forward.</p>"
+  },
+  {
+    "title": "Visualization for Human-Centered AI Tools",
+    "date": "2024-04-02",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Computer Vision"
+    ],
+    "author": {
+      "name": "Md Naimul Hoque",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2404.02147v2"
+    },
+    "publicTags": [],
+    "summary": "Human-centered AI (HCAI) puts the user in the driver's seat of so-called\nhuman-centered AI-infused tools (HCAI tools): interactive software tools that\namplify, augment, empower, and enhance human performance using AI models. We\ndiscuss how interactive visualization can be a key enabling technology for\ncreating such human-centered AI tools. To validate our approach, we first\ninterviewed HCI, AI, and Visualization experts to define the characteristics of\nHCAI tools. We then present several examples of HCAI tools using visualization\nand use the examples to extract guidelines on how interactive visualization can\nsupport future HCAI tools.",
+    "sourceUrl": "http://arxiv.org/abs/2404.02147v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Human-centered AI (HCAI) puts the user in the driver's seat of so-called\nhuman-centered AI-infused tools (HCAI tools): interactive software tools that\namplify, augment, empower, and enhance human performance using AI models. We\ndiscuss how interactive visualization can be a key enabling technology for\ncreating such human-centered AI tools. To validate our approach, we first\ninterviewed HCI, AI, and Visualization experts to define the characteristics of\nHCAI tools. We then present several examples of HCAI tools using visualization\nand use the examples to extract guidelines on how interactive visualization can\nsupport future HCAI tools.</p>"
+  },
+  {
+    "title": "Exploring AI Tool's Versatile Responses: An In-depth Analysis Across\n  Different Industries and Its Performance Evaluation",
+    "date": "2023-07-12",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Hitesh Mohapatra",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2307.05909v2"
+    },
+    "publicTags": [],
+    "summary": "AI Tool is a large language model (LLM) designed to generate human-like\nresponses in natural language conversations. It is trained on a massive corpus\nof text from the internet, which allows it to leverage a broad understanding of\nlanguage, general knowledge, and various domains. AI Tool can provide\ninformation, engage in conversations, assist with tasks, and even offer\ncreative suggestions. The underlying technology behind AI Tool is a transformer\nneural network. Transformers excel at capturing long-range dependencies in\ntext, making them well-suited for language-related tasks. AI Tool has 175\nbillion parameters, making it one of the largest and most powerful LLMs to\ndate. This work presents an overview of AI Tool's responses on various sectors\nof industry. Further, the responses of AI Tool have been cross-verified with\nhuman experts in the corresponding fields. To validate the performance of AI\nTool, a few explicit parameters have been considered and the evaluation has\nbeen done. This study will help the research community and other users to\nunderstand the uses of AI Tool and its interaction pattern. The results of this\nstudy show that AI Tool is able to generate human-like responses that are both\ninformative and engaging. However, it is important to note that AI Tool can\noccasionally produce incorrect or nonsensical answers. It is therefore\nimportant to critically evaluate the information that AI Tool provides and to\nverify it from reliable sources when necessary. Overall, this study suggests\nthat AI Tool is a promising new tool for natural language processing, and that\nit has the potential to be used in a wide variety of applications.",
+    "sourceUrl": "http://arxiv.org/abs/2307.05909v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>AI Tool is a large language model (LLM) designed to generate human-like\nresponses in natural language conversations. It is trained on a massive corpus\nof text from the internet, which allows it to leverage a broad understanding of\nlanguage, general knowledge, and various domains. AI Tool can provide\ninformation, engage in conversations, assist with tasks, and even offer\ncreative suggestions. The underlying technology behind AI Tool is a transformer\nneural network. Transformers excel at capturing long-range dependencies in\ntext, making them well-suited for language-related tasks. AI Tool has 175\nbillion parameters, making it one of the largest and most powerful LLMs to\ndate. This work presents an overview of AI Tool's responses on various sectors\nof industry. Further, the responses of AI Tool have been cross-verified with\nhuman experts in the corresponding fields. To validate the performance of AI\nTool, a few explicit parameters have been considered and the evaluation has\nbeen done. This study will help the research community and other users to\nunderstand the uses of AI Tool and its interaction pattern. The results of this\nstudy show that AI Tool is able to generate human-like responses that are both\ninformative and engaging. However, it is important to note that AI Tool can\noccasionally produce incorrect or nonsensical answers. It is therefore\nimportant to critically evaluate the information that AI Tool provides and to\nverify it from reliable sources when necessary. Overall, this study suggests\nthat AI Tool is a promising new tool for natural language processing, and that\nit has the potential to be used in a wide variety of applications.</p>"
+  },
+  {
+    "title": "A Capability Approach to AI Ethics",
+    "date": "2025-01-10",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "AI Ethics"
+    ],
+    "author": {
+      "name": "Emanuele Ratti",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2502.03469v1"
+    },
+    "publicTags": [],
+    "summary": "We propose a conceptualization and implementation of AI ethics via the\ncapability approach. We aim to show that conceptualizing AI ethics through the\ncapability approach has two main advantages for AI ethics as a discipline.\nFirst, it helps clarify the ethical dimension of AI tools. Second, it provides\nguidance to implementing ethical considerations within the design of AI tools.\nWe illustrate these advantages in the context of AI tools in medicine, by\nshowing how ethics-based auditing of AI tools in medicine can greatly benefit\nfrom our capability-based approach.",
+    "sourceUrl": "http://arxiv.org/abs/2502.03469v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>We propose a conceptualization and implementation of AI ethics via the\ncapability approach. We aim to show that conceptualizing AI ethics through the\ncapability approach has two main advantages for AI ethics as a discipline.\nFirst, it helps clarify the ethical dimension of AI tools. Second, it provides\nguidance to implementing ethical considerations within the design of AI tools.\nWe illustrate these advantages in the context of AI tools in medicine, by\nshowing how ethics-based auditing of AI tools in medicine can greatly benefit\nfrom our capability-based approach.</p>"
+  },
+  {
+    "title": "AI Thinking: A framework for rethinking artificial intelligence in\n  practice",
+    "date": "2024-08-26",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Denis Newman-Griffis",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2409.12922v1"
+    },
+    "publicTags": [],
+    "summary": "Artificial intelligence is transforming the way we work with information\nacross disciplines and practical contexts. A growing range of disciplines are\nnow involved in studying, developing, and assessing the use of AI in practice,\nbut these disciplines often employ conflicting understandings of what AI is and\nwhat is involved in its use. New, interdisciplinary approaches are needed to\nbridge competing conceptualisations of AI in practice and help shape the future\nof AI use. I propose a novel conceptual framework called AI Thinking, which\nmodels key decisions and considerations involved in AI use across disciplinary\nperspectives. The AI Thinking model addresses five practice-based competencies\ninvolved in applying AI in context: motivating AI use in information processes,\nformulating AI methods, assessing available tools and technologies, selecting\nappropriate data, and situating AI in the sociotechnical contexts it is used\nin. A hypothetical case study is provided to illustrate the application of AI\nThinking in practice. This article situates AI Thinking in broader\ncross-disciplinary discourses of AI, including its connections to ongoing\ndiscussions around AI literacy and AI-driven innovation. AI Thinking can help\nto bridge divides between academic disciplines and diverse contexts of AI use,\nand to reshape the future of AI in practice.",
+    "sourceUrl": "http://arxiv.org/abs/2409.12922v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Artificial intelligence is transforming the way we work with information\nacross disciplines and practical contexts. A growing range of disciplines are\nnow involved in studying, developing, and assessing the use of AI in practice,\nbut these disciplines often employ conflicting understandings of what AI is and\nwhat is involved in its use. New, interdisciplinary approaches are needed to\nbridge competing conceptualisations of AI in practice and help shape the future\nof AI use. I propose a novel conceptual framework called AI Thinking, which\nmodels key decisions and considerations involved in AI use across disciplinary\nperspectives. The AI Thinking model addresses five practice-based competencies\ninvolved in applying AI in context: motivating AI use in information processes,\nformulating AI methods, assessing available tools and technologies, selecting\nappropriate data, and situating AI in the sociotechnical contexts it is used\nin. A hypothetical case study is provided to illustrate the application of AI\nThinking in practice. This article situates AI Thinking in broader\ncross-disciplinary discourses of AI, including its connections to ongoing\ndiscussions around AI literacy and AI-driven innovation. AI Thinking can help\nto bridge divides between academic disciplines and diverse contexts of AI use,\nand to reshape the future of AI in practice.</p>"
+  },
+  {
+    "title": "How Developers Interact with AI: A Taxonomy of Human-AI Collaboration in\n  Software Engineering",
+    "date": "2025-01-15",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Christoph Treude",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2501.08774v2"
+    },
+    "publicTags": [],
+    "summary": "Artificial intelligence (AI), including large language models and generative\nAI, is emerging as a significant force in software development, offering\ndevelopers powerful tools that span the entire development lifecycle. Although\nsoftware engineering research has extensively studied AI tools in software\ndevelopment, the specific types of interactions between developers and these\nAI-powered tools have only recently begun to receive attention. Understanding\nand improving these interactions has the potential to enhance productivity,\ntrust, and efficiency in AI-driven workflows. In this paper, we propose a\ntaxonomy of interaction types between developers and AI tools, identifying\neleven distinct interaction types, such as auto-complete code suggestions,\ncommand-driven actions, and conversational assistance. Building on this\ntaxonomy, we outline a research agenda focused on optimizing AI interactions,\nimproving developer control, and addressing trust and usability challenges in\nAI-assisted development. By establishing a structured foundation for studying\ndeveloper-AI interactions, this paper aims to stimulate research on creating\nmore effective, adaptive AI tools for software development.",
+    "sourceUrl": "http://arxiv.org/abs/2501.08774v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Artificial intelligence (AI), including large language models and generative\nAI, is emerging as a significant force in software development, offering\ndevelopers powerful tools that span the entire development lifecycle. Although\nsoftware engineering research has extensively studied AI tools in software\ndevelopment, the specific types of interactions between developers and these\nAI-powered tools have only recently begun to receive attention. Understanding\nand improving these interactions has the potential to enhance productivity,\ntrust, and efficiency in AI-driven workflows. In this paper, we propose a\ntaxonomy of interaction types between developers and AI tools, identifying\neleven distinct interaction types, such as auto-complete code suggestions,\ncommand-driven actions, and conversational assistance. Building on this\ntaxonomy, we outline a research agenda focused on optimizing AI interactions,\nimproving developer control, and addressing trust and usability challenges in\nAI-assisted development. By establishing a structured foundation for studying\ndeveloper-AI interactions, this paper aims to stimulate research on creating\nmore effective, adaptive AI tools for software development.</p>"
+  },
+  {
+    "title": "Assigning AI: Seven Approaches for Students, with Prompts",
+    "date": "2023-06-13",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "AI Ethics"
+    ],
+    "author": {
+      "name": "Ethan Mollick",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2306.10052v1"
+    },
+    "publicTags": [],
+    "summary": "This paper examines the transformative role of Large Language Models (LLMs)\nin education and their potential as learning tools, despite their inherent\nrisks and limitations. The authors propose seven approaches for utilizing AI in\nclassrooms: AI-tutor, AI-coach, AI-mentor, AI-teammate, AI-tool, AI-simulator,\nand AI-student, each with distinct pedagogical benefits and risks. The aim is\nto help students learn with and about AI, with practical strategies designed to\nmitigate risks such as complacency about the AI's output, errors, and biases.\nThese strategies promote active oversight, critical assessment of AI outputs,\nand complementarity of AI's capabilities with the students' unique insights. By\nchallenging students to remain the \"human in the loop,\" the authors aim to\nenhance learning outcomes while ensuring that AI serves as a supportive tool\nrather than a replacement. The proposed framework offers a guide for educators\nnavigating the integration of AI-assisted learning in classrooms",
+    "sourceUrl": "http://arxiv.org/abs/2306.10052v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>This paper examines the transformative role of Large Language Models (LLMs)\nin education and their potential as learning tools, despite their inherent\nrisks and limitations. The authors propose seven approaches for utilizing AI in\nclassrooms: AI-tutor, AI-coach, AI-mentor, AI-teammate, AI-tool, AI-simulator,\nand AI-student, each with distinct pedagogical benefits and risks. The aim is\nto help students learn with and about AI, with practical strategies designed to\nmitigate risks such as complacency about the AI's output, errors, and biases.\nThese strategies promote active oversight, critical assessment of AI outputs,\nand complementarity of AI's capabilities with the students' unique insights. By\nchallenging students to remain the \"human in the loop,\" the authors aim to\nenhance learning outcomes while ensuring that AI serves as a supportive tool\nrather than a replacement. The proposed framework offers a guide for educators\nnavigating the integration of AI-assisted learning in classrooms</p>"
+  },
+  {
+    "title": "Improving User Experience with FAICO: Towards a Framework for AI\n  Communication in Human-AI Co-Creativity",
+    "date": "2025-04-03",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "AI Ethics"
+    ],
+    "author": {
+      "name": "Jeba Rezwana",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2504.02526v1"
+    },
+    "publicTags": [],
+    "summary": "How AI communicates with humans is crucial for effective human-AI\nco-creation. However, many existing co-creative AI tools cannot communicate\neffectively, limiting their potential as collaborators. This paper introduces\nour initial design of a Framework for designing AI Communication (FAICO) for\nco-creative AI based on a systematic review of 107 full-length papers. FAICO\npresents key aspects of AI communication and their impacts on user experience\nto guide the design of effective AI communication. We then show actionable ways\nto translate our framework into two practical tools: design cards for designers\nand a configuration tool for users. The design cards enable designers to\nconsider AI communication strategies that cater to a diverse range of users in\nco-creative contexts, while the configuration tool empowers users to customize\nAI communication based on their needs and creative workflows. This paper\ncontributes new insights within the literature on human-AI co-creativity and\nHuman-Computer Interaction, focusing on designing AI communication to enhance\nuser experience.",
+    "sourceUrl": "http://arxiv.org/abs/2504.02526v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>How AI communicates with humans is crucial for effective human-AI\nco-creation. However, many existing co-creative AI tools cannot communicate\neffectively, limiting their potential as collaborators. This paper introduces\nour initial design of a Framework for designing AI Communication (FAICO) for\nco-creative AI based on a systematic review of 107 full-length papers. FAICO\npresents key aspects of AI communication and their impacts on user experience\nto guide the design of effective AI communication. We then show actionable ways\nto translate our framework into two practical tools: design cards for designers\nand a configuration tool for users. The design cards enable designers to\nconsider AI communication strategies that cater to a diverse range of users in\nco-creative contexts, while the configuration tool empowers users to customize\nAI communication based on their needs and creative workflows. This paper\ncontributes new insights within the literature on human-AI co-creativity and\nHuman-Computer Interaction, focusing on designing AI communication to enhance\nuser experience.</p>"
+  },
+  {
+    "title": "Understanding Mental Models of AI through Player-AI Interaction",
+    "date": "2021-03-30",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Data Science"
+    ],
+    "author": {
+      "name": "Jennifer Villareale",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2103.16168v1"
+    },
+    "publicTags": [],
+    "summary": "Designing human-centered AI-driven applications require deep understandings\nof how people develop mental models of AI. Currently, we have little knowledge\nof this process and limited tools to study it. This paper presents the position\nthat AI-based games, particularly the player-AI interaction component, offer an\nideal domain to study the process in which mental models evolve. We present a\ncase study to illustrate the benefits of our approach for explainable AI.",
+    "sourceUrl": "http://arxiv.org/abs/2103.16168v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Designing human-centered AI-driven applications require deep understandings\nof how people develop mental models of AI. Currently, we have little knowledge\nof this process and limited tools to study it. This paper presents the position\nthat AI-based games, particularly the player-AI interaction component, offer an\nideal domain to study the process in which mental models evolve. We present a\ncase study to illustrate the benefits of our approach for explainable AI.</p>"
+  },
+  {
+    "title": "Should ChatGPT and Bard Share Revenue with Their Data Providers? A New\n  Business Model for the AI Era",
+    "date": "2023-05-04",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Natural Language Processing"
+    ],
+    "author": {
+      "name": "Dong Zhang",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2305.02555v2"
+    },
+    "publicTags": [],
+    "summary": "With various AI tools such as ChatGPT becoming increasingly popular, we are\nentering a true AI era. We can foresee that exceptional AI tools will soon reap\nconsiderable profits. A crucial question arise: should AI tools share revenue\nwith their training data providers in additional to traditional stakeholders\nand shareholders? The answer is Yes. Large AI tools, such as large language\nmodels, always require more and better quality data to continuously improve,\nbut current copyright laws limit their access to various types of data. Sharing\nrevenue between AI tools and their data providers could transform the current\nhostile zero-sum game relationship between AI tools and a majority of\ncopyrighted data owners into a collaborative and mutually beneficial one, which\nis necessary to facilitate the development of a virtuous cycle among AI tools,\ntheir users and data providers that drives forward AI technology and builds a\nhealthy AI ecosystem. However, current revenue-sharing business models do not\nwork for AI tools in the forthcoming AI era, since the most widely used metrics\nfor website-based traffic and action, such as clicks, will be replaced by new\nmetrics such as prompts and cost per prompt for generative AI tools. A\ncompletely new revenue-sharing business model, which must be almost independent\nof AI tools and be easily explained to data providers, needs to establish a\nprompt-based scoring system to measure data engagement of each data provider.\nThis paper systematically discusses how to build such a scoring system for all\ndata providers for AI tools based on classification and content similarity\nmodels, and outlines the requirements for AI tools or third parties to build\nit. Sharing revenue with data providers using such a scoring system would\nencourage more data owners to participate in the revenue-sharing program. This\nwill be a utilitarian AI era where all parties benefit.",
+    "sourceUrl": "http://arxiv.org/abs/2305.02555v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>With various AI tools such as ChatGPT becoming increasingly popular, we are\nentering a true AI era. We can foresee that exceptional AI tools will soon reap\nconsiderable profits. A crucial question arise: should AI tools share revenue\nwith their training data providers in additional to traditional stakeholders\nand shareholders? The answer is Yes. Large AI tools, such as large language\nmodels, always require more and better quality data to continuously improve,\nbut current copyright laws limit their access to various types of data. Sharing\nrevenue between AI tools and their data providers could transform the current\nhostile zero-sum game relationship between AI tools and a majority of\ncopyrighted data owners into a collaborative and mutually beneficial one, which\nis necessary to facilitate the development of a virtuous cycle among AI tools,\ntheir users and data providers that drives forward AI technology and builds a\nhealthy AI ecosystem. However, current revenue-sharing business models do not\nwork for AI tools in the forthcoming AI era, since the most widely used metrics\nfor website-based traffic and action, such as clicks, will be replaced by new\nmetrics such as prompts and cost per prompt for generative AI tools. A\ncompletely new revenue-sharing business model, which must be almost independent\nof AI tools and be easily explained to data providers, needs to establish a\nprompt-based scoring system to measure data engagement of each data provider.\nThis paper systematically discusses how to build such a scoring system for all\ndata providers for AI tools based on classification and content similarity\nmodels, and outlines the requirements for AI tools or third parties to build\nit. Sharing revenue with data providers using such a scoring system would\nencourage more data owners to participate in the revenue-sharing program. This\nwill be a utilitarian AI era where all parties benefit.</p>"
+  },
+  {
+    "title": "\"From Unseen Needs to Classroom Solutions\": Exploring AI Literacy\n  Challenges & Opportunities with Project-based Learning Toolkit in K-12\n  Education",
+    "date": "2024-12-23",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Machine Learning"
+    ],
+    "author": {
+      "name": "Hanqi Li",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2412.17243v1"
+    },
+    "publicTags": [],
+    "summary": "As artificial intelligence (AI) becomes increasingly central to various\nfields, there is a growing need to equip K-12 students with AI literacy skills\nthat extend beyond computer science. This paper explores the integration of a\nProject-Based Learning (PBL) AI toolkit into diverse subject areas, aimed at\nhelping educators teach AI concepts more effectively. Through interviews and\nco-design sessions with K-12 teachers, we examined current AI literacy levels\nand how teachers adapt AI tools like the AI Art Lab, AI Music Studio, and AI\nChatbot into their course designs. While teachers appreciated the potential of\nAI tools to foster creativity and critical thinking, they also expressed\nconcerns about the accuracy, trustworthiness, and ethical implications of\nAI-generated content. Our findings reveal the challenges teachers face,\nincluding limited resources, varying student and instructor skill levels, and\nthe need for scalable, adaptable AI tools. This research contributes insights\nthat can inform the development of AI curricula tailored to diverse educational\ncontexts.",
+    "sourceUrl": "http://arxiv.org/abs/2412.17243v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>As artificial intelligence (AI) becomes increasingly central to various\nfields, there is a growing need to equip K-12 students with AI literacy skills\nthat extend beyond computer science. This paper explores the integration of a\nProject-Based Learning (PBL) AI toolkit into diverse subject areas, aimed at\nhelping educators teach AI concepts more effectively. Through interviews and\nco-design sessions with K-12 teachers, we examined current AI literacy levels\nand how teachers adapt AI tools like the AI Art Lab, AI Music Studio, and AI\nChatbot into their course designs. While teachers appreciated the potential of\nAI tools to foster creativity and critical thinking, they also expressed\nconcerns about the accuracy, trustworthiness, and ethical implications of\nAI-generated content. Our findings reveal the challenges teachers face,\nincluding limited resources, varying student and instructor skill levels, and\nthe need for scalable, adaptable AI tools. This research contributes insights\nthat can inform the development of AI curricula tailored to diverse educational\ncontexts.</p>"
+  },
+  {
+    "title": "EpiClim: Weekly District-Wise all-India multi-epidemics Climate-Health\n  Dataset for accelerated GeoHealth research",
+    "date": "2025-01-17",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Gurleen Kaur",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2501.18602v2"
+    },
+    "publicTags": [],
+    "summary": "Climate change significantly impacts public health, driving the emergence and\nspread of epidemics. Climate health models are essential for assessing and\npredicting disease outbreaks influenced by climatic variables like temperature\nand precipitation. For instance, dengue and malaria correlate with temperature\nchanges, while cholera is linked to precipitation anomalies. Advances in\nAI-enabled weather prediction (AI-NWP) have improved forecasting, but\nintegrating climate models with health systems is hindered by the lack of\ncomprehensive, granular health datasets. This study introduces EpiClim: India's\nEpidemic-Climate Dataset, the first weekly district-wise dataset for major\nepidemics in India from 2009 to the present, sourced from the Integrated\nDisease Surveillance Programme (IDSP). The dataset, covering diseases like\ndengue, malaria, and acute-diarrheal disease, bridges the gap between climate\nand health data, enabling the integration of climate forecasts with epidemic\nprediction models. This work lays the foundation for coupling predictive\nclimate health models with weather and climate models, advancing efforts to\nmitigate climate-induced public health crises.",
+    "sourceUrl": "http://arxiv.org/abs/2501.18602v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Climate change significantly impacts public health, driving the emergence and\nspread of epidemics. Climate health models are essential for assessing and\npredicting disease outbreaks influenced by climatic variables like temperature\nand precipitation. For instance, dengue and malaria correlate with temperature\nchanges, while cholera is linked to precipitation anomalies. Advances in\nAI-enabled weather prediction (AI-NWP) have improved forecasting, but\nintegrating climate models with health systems is hindered by the lack of\ncomprehensive, granular health datasets. This study introduces EpiClim: India's\nEpidemic-Climate Dataset, the first weekly district-wise dataset for major\nepidemics in India from 2009 to the present, sourced from the Integrated\nDisease Surveillance Programme (IDSP). The dataset, covering diseases like\ndengue, malaria, and acute-diarrheal disease, bridges the gap between climate\nand health data, enabling the integration of climate forecasts with epidemic\nprediction models. This work lays the foundation for coupling predictive\nclimate health models with weather and climate models, advancing efforts to\nmitigate climate-induced public health crises.</p>"
+  },
+  {
+    "title": "Towards AI-driven Integrative Emissions Monitoring & Management for\n  Nature-Based Climate Solutions",
+    "date": "2023-12-17",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Olamide Oladeji",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2312.11566v1"
+    },
+    "publicTags": [],
+    "summary": "AI has been proposed as an important tool to support several efforts related\nto nature-based climate solutions such as the detection of wildfires that\naffect forests and vegetation-based offsets. While this and other use-cases\nprovide important demonstrative value of the power of AI in climate change\nmitigation, such efforts have typically been undertaken in silos, without\nawareness of the integrative nature of real-world climate policy-making. In\nthis paper, we propose a novel overarching framework for AI-aided integrated\nand comprehensive decision support for various aspects of nature-based climate\ndecision-making. Focusing on vegetation-based solutions such as forests, we\ndemonstrate how different AI-aided decision support models such as AI-aided\nwildfire detection, AI-aided vegetation carbon stock assessment, reversal risk\nmitigation, and disaster response planning can be integrated into a\ncomprehensive framework. Rather than being disparate elements, we posit that\nthe exchange of data and analytical results across elements of the framework,\nand careful mitigation of uncertainty propagation will provide tremendous value\nrelative to the status-quo for real-world climate policy-making.",
+    "sourceUrl": "http://arxiv.org/abs/2312.11566v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>AI has been proposed as an important tool to support several efforts related\nto nature-based climate solutions such as the detection of wildfires that\naffect forests and vegetation-based offsets. While this and other use-cases\nprovide important demonstrative value of the power of AI in climate change\nmitigation, such efforts have typically been undertaken in silos, without\nawareness of the integrative nature of real-world climate policy-making. In\nthis paper, we propose a novel overarching framework for AI-aided integrated\nand comprehensive decision support for various aspects of nature-based climate\ndecision-making. Focusing on vegetation-based solutions such as forests, we\ndemonstrate how different AI-aided decision support models such as AI-aided\nwildfire detection, AI-aided vegetation carbon stock assessment, reversal risk\nmitigation, and disaster response planning can be integrated into a\ncomprehensive framework. Rather than being disparate elements, we posit that\nthe exchange of data and analytical results across elements of the framework,\nand careful mitigation of uncertainty propagation will provide tremendous value\nrelative to the status-quo for real-world climate policy-making.</p>"
+  },
+  {
+    "title": "Proceedings of AAAI 2022 Fall Symposium: The Role of AI in Responding to\n  Climate Challenges",
+    "date": "2022-12-27",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Feras A. Batarseh",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2212.13631v5"
+    },
+    "publicTags": [],
+    "summary": "Climate change is one of the most pressing challenges of our time, requiring\nrapid action across society. As artificial intelligence tools (AI) are rapidly\ndeployed, it is therefore crucial to understand how they will impact climate\naction. On the one hand, AI can support applications in climate change\nmitigation (reducing or preventing greenhouse gas emissions), adaptation\n(preparing for the effects of a changing climate), and climate science. These\napplications have implications in areas ranging as widely as energy,\nagriculture, and finance. At the same time, AI is used in many ways that hinder\nclimate action (e.g., by accelerating the use of greenhouse gas-emitting fossil\nfuels). In addition, AI technologies have a carbon and energy footprint\nthemselves. This symposium brought together participants from across academia,\nindustry, government, and civil society to explore these intersections of AI\nwith climate change, as well as how each of these sectors can contribute to\nsolutions.",
+    "sourceUrl": "http://arxiv.org/abs/2212.13631v5",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Climate change is one of the most pressing challenges of our time, requiring\nrapid action across society. As artificial intelligence tools (AI) are rapidly\ndeployed, it is therefore crucial to understand how they will impact climate\naction. On the one hand, AI can support applications in climate change\nmitigation (reducing or preventing greenhouse gas emissions), adaptation\n(preparing for the effects of a changing climate), and climate science. These\napplications have implications in areas ranging as widely as energy,\nagriculture, and finance. At the same time, AI is used in many ways that hinder\nclimate action (e.g., by accelerating the use of greenhouse gas-emitting fossil\nfuels). In addition, AI technologies have a carbon and energy footprint\nthemselves. This symposium brought together participants from across academia,\nindustry, government, and civil society to explore these intersections of AI\nwith climate change, as well as how each of these sectors can contribute to\nsolutions.</p>"
+  },
+  {
+    "title": "AI For Global Climate Cooperation 2023 Competition Proceedings",
+    "date": "2023-07-10",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Yoshua Bengio",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2307.06951v1"
+    },
+    "publicTags": [],
+    "summary": "The international community must collaborate to mitigate climate change and\nsustain economic growth. However, collaboration is hard to achieve, partly\nbecause no global authority can ensure compliance with international climate\nagreements. Combining AI with climate-economic simulations offers a promising\nsolution to design international frameworks, including negotiation protocols\nand climate agreements, that promote and incentivize collaboration. In\naddition, these frameworks should also have policy goals fulfillment, and\nsustained commitment, taking into account climate-economic dynamics and\nstrategic behaviors. These challenges require an interdisciplinary approach\nacross machine learning, economics, climate science, law, policy, ethics, and\nother fields.\n  Towards this objective, we organized AI for Global Climate Cooperation, a\nMila competition in which teams submitted proposals and analyses of\ninternational frameworks, based on (modifications of) RICE-N, an AI-driven\nintegrated assessment model (IAM). In particular, RICE-N supports modeling\nregional decision-making using AI agents. Furthermore, the IAM then models the\nclimate-economic impact of those decisions into the future.\n  Whereas the first track focused only on performance metrics, the proposals\nsubmitted to the second track were evaluated both quantitatively and\nqualitatively. The quantitative evaluation focused on a combination of (i) the\ndegree of mitigation of global temperature rise and (ii) the increase in\neconomic productivity. On the other hand, an interdisciplinary panel of human\nexperts in law, policy, sociology, economics and environmental science,\nevaluated the solutions qualitatively. In particular, the panel considered the\neffectiveness, simplicity, feasibility, ethics, and notions of climate justice\nof the protocols. In the third track, the participants were asked to critique\nand improve RICE-N.",
+    "sourceUrl": "http://arxiv.org/abs/2307.06951v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>The international community must collaborate to mitigate climate change and\nsustain economic growth. However, collaboration is hard to achieve, partly\nbecause no global authority can ensure compliance with international climate\nagreements. Combining AI with climate-economic simulations offers a promising\nsolution to design international frameworks, including negotiation protocols\nand climate agreements, that promote and incentivize collaboration. In\naddition, these frameworks should also have policy goals fulfillment, and\nsustained commitment, taking into account climate-economic dynamics and\nstrategic behaviors. These challenges require an interdisciplinary approach\nacross machine learning, economics, climate science, law, policy, ethics, and\nother fields.\n  Towards this objective, we organized AI for Global Climate Cooperation, a\nMila competition in which teams submitted proposals and analyses of\ninternational frameworks, based on (modifications of) RICE-N, an AI-driven\nintegrated assessment model (IAM). In particular, RICE-N supports modeling\nregional decision-making using AI agents. Furthermore, the IAM then models the\nclimate-economic impact of those decisions into the future.\n  Whereas the first track focused only on performance metrics, the proposals\nsubmitted to the second track were evaluated both quantitatively and\nqualitatively. The quantitative evaluation focused on a combination of (i) the\ndegree of mitigation of global temperature rise and (ii) the increase in\neconomic productivity. On the other hand, an interdisciplinary panel of human\nexperts in law, policy, sociology, economics and environmental science,\nevaluated the solutions qualitatively. In particular, the panel considered the\neffectiveness, simplicity, feasibility, ethics, and notions of climate justice\nof the protocols. In the third track, the participants were asked to critique\nand improve RICE-N.</p>"
+  },
+  {
+    "title": "CLIMATE-FEVER: A Dataset for Verification of Real-World Climate Claims",
+    "date": "2020-12-01",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Thomas Diggelmann",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2012.00614v2"
+    },
+    "publicTags": [],
+    "summary": "We introduce CLIMATE-FEVER, a new publicly available dataset for verification\nof climate change-related claims. By providing a dataset for the research\ncommunity, we aim to facilitate and encourage work on improving algorithms for\nretrieving evidential support for climate-specific claims, addressing the\nunderlying language understanding challenges, and ultimately help alleviate the\nimpact of misinformation on climate change. We adapt the methodology of FEVER\n[1], the largest dataset of artificially designed claims, to real-life claims\ncollected from the Internet. While during this process, we could rely on the\nexpertise of renowned climate scientists, it turned out to be no easy task. We\ndiscuss the surprising, subtle complexity of modeling real-world\nclimate-related claims within the \\textsc{fever} framework, which we believe\nprovides a valuable challenge for general natural language understanding. We\nhope that our work will mark the beginning of a new exciting long-term joint\neffort by the climate science and AI community.",
+    "sourceUrl": "http://arxiv.org/abs/2012.00614v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>We introduce CLIMATE-FEVER, a new publicly available dataset for verification\nof climate change-related claims. By providing a dataset for the research\ncommunity, we aim to facilitate and encourage work on improving algorithms for\nretrieving evidential support for climate-specific claims, addressing the\nunderlying language understanding challenges, and ultimately help alleviate the\nimpact of misinformation on climate change. We adapt the methodology of FEVER\n[1], the largest dataset of artificially designed claims, to real-life claims\ncollected from the Internet. While during this process, we could rely on the\nexpertise of renowned climate scientists, it turned out to be no easy task. We\ndiscuss the surprising, subtle complexity of modeling real-world\nclimate-related claims within the \\textsc{fever} framework, which we believe\nprovides a valuable challenge for general natural language understanding. We\nhope that our work will mark the beginning of a new exciting long-term joint\neffort by the climate science and AI community.</p>"
+  },
+  {
+    "title": "Forecasting the Future with Yesterday's Climate: Temperature Bias in AI\n  Weather and Climate Models",
+    "date": "2025-09-26",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Jacob B. Landsberg",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2509.22359v1"
+    },
+    "publicTags": [],
+    "summary": "AI-based climate and weather models have rapidly gained popularity, providing\nfaster forecasts with skill that can match or even surpass that of traditional\ndynamical models. Despite this success, these models face a key challenge:\npredicting future climates while being trained only with historical data. In\nthis study, we investigate this issue by analyzing boreal winter land\ntemperature biases in AI weather and climate models. We examine two weather\nmodels, FourCastNet V2 Small (FourCastNet) and Pangu Weather (Pangu),\nevaluating their predictions for 2020-2025 and Ai2 Climate Emulator version 2\n(ACE2) for 1996-2010. These time periods lie outside of the respective models'\ntraining sets and are significantly more recent than the bulk of their training\ndata, allowing us to assess how well the models generalize to new, i.e. more\nmodern, conditions. We find that all three models produce cold-biased mean\ntemperatures, resembling climates from 15-20 years earlier than the period they\nare predicting. In some regions, like the Eastern U.S., the predictions\nresemble climates from as much as 20-30 years earlier. Further analysis shows\nthat FourCastNet's and Pangu's cold bias is strongest in the hottest predicted\ntemperatures, indicating limited training exposure to modern extreme heat\nevents. In contrast, ACE2's bias is more evenly distributed but largest in\nregions, seasons, and parts of the temperature distribution where climate\nchange has been most pronounced. These findings underscore the challenge of\ntraining AI models exclusively on historical data and highlight the need to\naccount for such biases when applying them to future climate prediction.",
+    "sourceUrl": "http://arxiv.org/abs/2509.22359v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>AI-based climate and weather models have rapidly gained popularity, providing\nfaster forecasts with skill that can match or even surpass that of traditional\ndynamical models. Despite this success, these models face a key challenge:\npredicting future climates while being trained only with historical data. In\nthis study, we investigate this issue by analyzing boreal winter land\ntemperature biases in AI weather and climate models. We examine two weather\nmodels, FourCastNet V2 Small (FourCastNet) and Pangu Weather (Pangu),\nevaluating their predictions for 2020-2025 and Ai2 Climate Emulator version 2\n(ACE2) for 1996-2010. These time periods lie outside of the respective models'\ntraining sets and are significantly more recent than the bulk of their training\ndata, allowing us to assess how well the models generalize to new, i.e. more\nmodern, conditions. We find that all three models produce cold-biased mean\ntemperatures, resembling climates from 15-20 years earlier than the period they\nare predicting. In some regions, like the Eastern U.S., the predictions\nresemble climates from as much as 20-30 years earlier. Further analysis shows\nthat FourCastNet's and Pangu's cold bias is strongest in the hottest predicted\ntemperatures, indicating limited training exposure to modern extreme heat\nevents. In contrast, ACE2's bias is more evenly distributed but largest in\nregions, seasons, and parts of the temperature distribution where climate\nchange has been most pronounced. These findings underscore the challenge of\ntraining AI models exclusively on historical data and highlight the need to\naccount for such biases when applying them to future climate prediction.</p>"
+  },
+  {
+    "title": "Enhancing LLMs for Governance with Human Oversight: Evaluating and\n  Aligning LLMs on Expert Classification of Climate Misinformation for\n  Detecting False or Misleading Claims about Climate Change",
+    "date": "2025-01-23",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Mowafak Allaham",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2501.13802v2"
+    },
+    "publicTags": [],
+    "summary": "Climate misinformation is a problem that has the potential to be\nsubstantially aggravated by the development of Large Language Models (LLMs). In\nthis study we evaluate the potential for LLMs to be part of the solution for\nmitigating online dis/misinformation rather than the problem. Employing a\npublic expert annotated dataset and a curated sample of social media content we\nevaluate the performance of proprietary vs. open source LLMs on climate\nmisinformation classification task, comparing them to existing climate-focused\ncomputer-assisted tools and expert assessments. Results show (1) open-source\nmodels substantially under-perform in classifying climate misinformation\ncompared to proprietary models, (2) existing climate-focused computer-assisted\ntools leveraging expert-annotated datasets continues to outperform many of\nproprietary models, including GPT-4o, and (3) demonstrate the efficacy and\ngeneralizability of fine-tuning GPT-3.5-turbo on expert annotated dataset in\nclassifying claims about climate change at the equivalency of climate change\nexperts with over 20 years of experience in climate communication. These\nfindings highlight 1) the importance of incorporating human-oversight, such as\nincorporating expert-annotated datasets in training LLMs, for governance tasks\nthat require subject-matter expertise like classifying climate misinformation,\nand 2) the potential for LLMs in facilitating civil society organizations to\nengage in various governance tasks such as classifying false or misleading\nclaims in domains beyond climate change such as politics and health science.",
+    "sourceUrl": "http://arxiv.org/abs/2501.13802v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Climate misinformation is a problem that has the potential to be\nsubstantially aggravated by the development of Large Language Models (LLMs). In\nthis study we evaluate the potential for LLMs to be part of the solution for\nmitigating online dis/misinformation rather than the problem. Employing a\npublic expert annotated dataset and a curated sample of social media content we\nevaluate the performance of proprietary vs. open source LLMs on climate\nmisinformation classification task, comparing them to existing climate-focused\ncomputer-assisted tools and expert assessments. Results show (1) open-source\nmodels substantially under-perform in classifying climate misinformation\ncompared to proprietary models, (2) existing climate-focused computer-assisted\ntools leveraging expert-annotated datasets continues to outperform many of\nproprietary models, including GPT-4o, and (3) demonstrate the efficacy and\ngeneralizability of fine-tuning GPT-3.5-turbo on expert annotated dataset in\nclassifying claims about climate change at the equivalency of climate change\nexperts with over 20 years of experience in climate communication. These\nfindings highlight 1) the importance of incorporating human-oversight, such as\nincorporating expert-annotated datasets in training LLMs, for governance tasks\nthat require subject-matter expertise like classifying climate misinformation,\nand 2) the potential for LLMs in facilitating civil society organizations to\nengage in various governance tasks such as classifying false or misleading\nclaims in domains beyond climate change such as politics and health science.</p>"
+  },
+  {
+    "title": "Dynamic Grouping for Climate Change Negotiation: Facilitating\n  Cooperation and Balancing Interests through Effective Strategies",
+    "date": "2023-07-26",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Duo Zhang",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2307.13886v1"
+    },
+    "publicTags": [],
+    "summary": "The current framework for climate change negotiation models presents several\nlimitations that warrant further research and development. In this track, we\ndiscuss mainly two key areas for improvement, focusing on the geographical\nimpacts and utility framework. In the aspects of geographical impacts, We\nexplore five critical aspects: (1) the shift from local to global impact, (2)\nvariability in climate change effects across regions, (3) heterogeneity in\ngeographical location and political structures, and (4) collaborations between\nadjacent nations, (5) the importance of including historical and cultural\nfactors influencing climate negotiations. Furthermore, we emphasize the need to\nrefine the utility and rewards framework to reduce the homogeneity and the\nlevel of overestimating the climate mitigation by integrating the positive\neffects of saving rates into the reward function and heterogeneity among all\nregions. By addressing these limitations, we hope to enhance the accuracy and\neffectiveness of climate change negotiation models, enabling policymakers and\nstakeholders to devise targeted and appropriate strategies to tackle climate\nchange at both regional and global levels.",
+    "sourceUrl": "http://arxiv.org/abs/2307.13886v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>The current framework for climate change negotiation models presents several\nlimitations that warrant further research and development. In this track, we\ndiscuss mainly two key areas for improvement, focusing on the geographical\nimpacts and utility framework. In the aspects of geographical impacts, We\nexplore five critical aspects: (1) the shift from local to global impact, (2)\nvariability in climate change effects across regions, (3) heterogeneity in\ngeographical location and political structures, and (4) collaborations between\nadjacent nations, (5) the importance of including historical and cultural\nfactors influencing climate negotiations. Furthermore, we emphasize the need to\nrefine the utility and rewards framework to reduce the homogeneity and the\nlevel of overestimating the climate mitigation by integrating the positive\neffects of saving rates into the reward function and heterogeneity among all\nregions. By addressing these limitations, we hope to enhance the accuracy and\neffectiveness of climate change negotiation models, enabling policymakers and\nstakeholders to devise targeted and appropriate strategies to tackle climate\nchange at both regional and global levels.</p>"
+  },
+  {
+    "title": "Leveraging AI for Climate Resilience in Africa: Challenges,\n  Opportunities, and the Need for Collaboration",
+    "date": "2024-04-24",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Rendani Mbuvha",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2407.05210v1"
+    },
+    "publicTags": [],
+    "summary": "As climate change issues become more pressing, their impact in Africa calls\nfor urgent, innovative solutions tailored to the continent's unique challenges.\nWhile Artificial Intelligence (AI) emerges as a critical and valuable tool for\nclimate change adaptation and mitigation, its effectiveness and potential are\ncontingent upon overcoming significant challenges such as data scarcity,\ninfrastructure gaps, and limited local AI development. This position paper\nexplores the role of AI in climate change adaptation and mitigation in Africa.\nIt advocates for a collaborative approach to build capacity, develop\nopen-source data repositories, and create context-aware, robust AI-driven\nclimate solutions that are culturally and contextually relevant.",
+    "sourceUrl": "http://arxiv.org/abs/2407.05210v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>As climate change issues become more pressing, their impact in Africa calls\nfor urgent, innovative solutions tailored to the continent's unique challenges.\nWhile Artificial Intelligence (AI) emerges as a critical and valuable tool for\nclimate change adaptation and mitigation, its effectiveness and potential are\ncontingent upon overcoming significant challenges such as data scarcity,\ninfrastructure gaps, and limited local AI development. This position paper\nexplores the role of AI in climate change adaptation and mitigation in Africa.\nIt advocates for a collaborative approach to build capacity, develop\nopen-source data repositories, and create context-aware, robust AI-driven\nclimate solutions that are culturally and contextually relevant.</p>"
+  },
+  {
+    "title": "Analysis of Climate Campaigns on Social Media using Bayesian Model\n  Averaging",
+    "date": "2023-05-06",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Uncategorized"
+    ],
+    "author": {
+      "name": "Tunazzina Islam",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2305.06174v2"
+    },
+    "publicTags": [],
+    "summary": "Climate change is the defining issue of our time, and we are at a defining\nmoment. Various interest groups, social movement organizations, and individuals\nengage in collective action on this issue on social media. In addition, issue\nadvocacy campaigns on social media often arise in response to ongoing societal\nconcerns, especially those faced by energy industries. Our goal in this paper\nis to analyze how those industries, their advocacy group, and climate advocacy\ngroup use social media to influence the narrative on climate change. In this\nwork, we propose a minimally supervised model soup [57] approach combined with\nmessaging themes to identify the stances of climate ads on Facebook. Finally,\nwe release our stance dataset, model, and set of themes related to climate\ncampaigns for future work on opinion mining and the automatic detection of\nclimate change stances.",
+    "sourceUrl": "http://arxiv.org/abs/2305.06174v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Climate change is the defining issue of our time, and we are at a defining\nmoment. Various interest groups, social movement organizations, and individuals\nengage in collective action on this issue on social media. In addition, issue\nadvocacy campaigns on social media often arise in response to ongoing societal\nconcerns, especially those faced by energy industries. Our goal in this paper\nis to analyze how those industries, their advocacy group, and climate advocacy\ngroup use social media to influence the narrative on climate change. In this\nwork, we propose a minimally supervised model soup [57] approach combined with\nmessaging themes to identify the stances of climate ads on Facebook. Finally,\nwe release our stance dataset, model, and set of themes related to climate\ncampaigns for future work on opinion mining and the automatic detection of\nclimate change stances.</p>"
+  },
+  {
+    "title": "HAiVA: Hybrid AI-assisted Visual Analysis Framework to Study the Effects\n  of Cloud Properties on Climate Patterns",
+    "date": "2023-05-13",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Climate Change"
+    ],
+    "author": {
+      "name": "Subhashis Hazarika",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2305.07859v1"
+    },
+    "publicTags": [],
+    "summary": "Clouds have a significant impact on the Earth's climate system. They play a\nvital role in modulating Earth's radiation budget and driving regional changes\nin temperature and precipitation. This makes clouds ideal for climate\nintervention techniques like Marine Cloud Brightening (MCB) which refers to\nmodification in cloud reflectivity, thereby cooling the surrounding region.\nHowever, to avoid unintended effects of MCB, we need a better understanding of\nthe complex cloud to climate response function. Designing and testing such\ninterventions scenarios with conventional Earth System Models is\ncomputationally expensive. Therefore, we propose a hybrid AI-assisted visual\nanalysis framework to drive such scientific studies and facilitate interactive\nwhat-if investigation of different MCB intervention scenarios to assess their\nintended and unintended impacts on climate patterns. We work with a team of\nclimate scientists to develop a suite of hybrid AI models emulating\ncloud-climate response function and design a tightly coupled frontend\ninteractive visual analysis system to perform different MCB intervention\nexperiments.",
+    "sourceUrl": "http://arxiv.org/abs/2305.07859v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Clouds have a significant impact on the Earth's climate system. They play a\nvital role in modulating Earth's radiation budget and driving regional changes\nin temperature and precipitation. This makes clouds ideal for climate\nintervention techniques like Marine Cloud Brightening (MCB) which refers to\nmodification in cloud reflectivity, thereby cooling the surrounding region.\nHowever, to avoid unintended effects of MCB, we need a better understanding of\nthe complex cloud to climate response function. Designing and testing such\ninterventions scenarios with conventional Earth System Models is\ncomputationally expensive. Therefore, we propose a hybrid AI-assisted visual\nanalysis framework to drive such scientific studies and facilitate interactive\nwhat-if investigation of different MCB intervention scenarios to assess their\nintended and unintended impacts on climate patterns. We work with a team of\nclimate scientists to develop a suite of hybrid AI models emulating\ncloud-climate response function and design a tightly coupled frontend\ninteractive visual analysis system to perform different MCB intervention\nexperiments.</p>"
+  },
+  {
+    "title": "Emerging AI-based weather prediction models as downscaling tools",
+    "date": "2024-06-25",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Climate Change"
+    ],
+    "author": {
+      "name": "Nikolay Koldunov",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2406.17977v1"
+    },
+    "publicTags": [],
+    "summary": "The demand for high-resolution information on climate change is critical for\naccurate projections and decision-making. Presently, this need is addressed\nthrough high-resolution climate models or downscaling. High-resolution models\nare computationally demanding and creating ensemble simulations with them is\ntypically prohibitively expensive. Downscaling methods are more affordable but\nare typically limited to small regions. This study proposes the use of existing\nAI-based numerical weather prediction systems (AI-NWP) to perform global\ndownscaling of climate information from low-resolution climate models. Our\nresults demonstrate that AI-NWP initalized from low-resolution initial\nconditions can develop detailed forecasts closely resembling the resolution of\nthe training data using a one day lead time. We constructed year-long\natmospheric fields using AI-NWP forecasts initialized from smoothed ERA5 and\nlow-resolution CMIP6 models. Our analysis for 2-metre temperature indicates\nthat AI-NWP can generate high-quality, long-term datasets and potentially\nperform bias correction, bringing climate model outputs closer to observed\ndata. The study highlights the potential for off-the-shelf AI-NWP to enhance\nclimate data downscaling, offering a simple and computationally efficient\nalternative to traditional downscaling techniques. The downscaled data can be\nused either directly for localized climate information or as boundary\nconditions for further dynamical downscaling.",
+    "sourceUrl": "http://arxiv.org/abs/2406.17977v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>The demand for high-resolution information on climate change is critical for\naccurate projections and decision-making. Presently, this need is addressed\nthrough high-resolution climate models or downscaling. High-resolution models\nare computationally demanding and creating ensemble simulations with them is\ntypically prohibitively expensive. Downscaling methods are more affordable but\nare typically limited to small regions. This study proposes the use of existing\nAI-based numerical weather prediction systems (AI-NWP) to perform global\ndownscaling of climate information from low-resolution climate models. Our\nresults demonstrate that AI-NWP initalized from low-resolution initial\nconditions can develop detailed forecasts closely resembling the resolution of\nthe training data using a one day lead time. We constructed year-long\natmospheric fields using AI-NWP forecasts initialized from smoothed ERA5 and\nlow-resolution CMIP6 models. Our analysis for 2-metre temperature indicates\nthat AI-NWP can generate high-quality, long-term datasets and potentially\nperform bias correction, bringing climate model outputs closer to observed\ndata. The study highlights the potential for off-the-shelf AI-NWP to enhance\nclimate data downscaling, offering a simple and computationally efficient\nalternative to traditional downscaling techniques. The downscaled data can be\nused either directly for localized climate information or as boundary\nconditions for further dynamical downscaling.</p>"
+  },
+  {
+    "title": "Handling Climate Change Using Counterfactuals: Using Counterfactuals in\n  Data Augmentation to Predict Crop Growth in an Uncertain Climate Future",
+    "date": "2021-04-08",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Climate Change"
+    ],
+    "author": {
+      "name": "Mohammed Temraz",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2104.04008v1"
+    },
+    "publicTags": [],
+    "summary": "Climate change poses a major challenge to humanity, especially in its impact\non agriculture, a challenge that a responsible AI should meet. In this paper,\nwe examine a CBR system (PBI-CBR) designed to aid sustainable dairy farming by\nsupporting grassland management, through accurate crop growth prediction. As\nclimate changes, PBI-CBRs historical cases become less useful in predicting\nfuture grass growth. Hence, we extend PBI-CBR using data augmentation, to\nspecifically handle disruptive climate events, using a counterfactual method\n(from XAI). Study 1 shows that historical, extreme climate-events (climate\noutlier cases) tend to be used by PBI-CBR to predict grass growth during\nclimate disrupted periods. Study 2 shows that synthetic outliers, generated as\ncounterfactuals on a outlier-boundary, improve the predictive accuracy of\nPBICBR, during the drought of 2018. This study also shows that an\ninstance-based counterfactual method does better than a benchmark,\nconstraint-guided method.",
+    "sourceUrl": "http://arxiv.org/abs/2104.04008v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Climate change poses a major challenge to humanity, especially in its impact\non agriculture, a challenge that a responsible AI should meet. In this paper,\nwe examine a CBR system (PBI-CBR) designed to aid sustainable dairy farming by\nsupporting grassland management, through accurate crop growth prediction. As\nclimate changes, PBI-CBRs historical cases become less useful in predicting\nfuture grass growth. Hence, we extend PBI-CBR using data augmentation, to\nspecifically handle disruptive climate events, using a counterfactual method\n(from XAI). Study 1 shows that historical, extreme climate-events (climate\noutlier cases) tend to be used by PBI-CBR to predict grass growth during\nclimate disrupted periods. Study 2 shows that synthetic outliers, generated as\ncounterfactuals on a outlier-boundary, improve the predictive accuracy of\nPBICBR, during the drought of 2018. This study also shows that an\ninstance-based counterfactual method does better than a benchmark,\nconstraint-guided method.</p>"
+  },
+  {
+    "title": "AI for Anticipatory Action: Moving Beyond Climate Forecasting",
+    "date": "2023-07-28",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Climate Change"
+    ],
+    "author": {
+      "name": "Benjamin Q. Huynh",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2307.15727v1"
+    },
+    "publicTags": [],
+    "summary": "Disaster response agencies have been shifting from a paradigm of climate\nforecasting towards one of anticipatory action: assessing not just what the\nclimate will be, but how it will impact specific populations, thereby enabling\nproactive response and resource allocation. Machine learning models are\nbecoming exceptionally powerful at climate forecasting, but methodological gaps\nremain in terms of facilitating anticipatory action. Here we provide an\noverview of anticipatory action, review relevant applications of machine\nlearning, identify common challenges, and highlight areas where machine\nlearning can uniquely contribute to advancing disaster response for populations\nmost vulnerable to climate change.",
+    "sourceUrl": "http://arxiv.org/abs/2307.15727v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Disaster response agencies have been shifting from a paradigm of climate\nforecasting towards one of anticipatory action: assessing not just what the\nclimate will be, but how it will impact specific populations, thereby enabling\nproactive response and resource allocation. Machine learning models are\nbecoming exceptionally powerful at climate forecasting, but methodological gaps\nremain in terms of facilitating anticipatory action. Here we provide an\noverview of anticipatory action, review relevant applications of machine\nlearning, identify common challenges, and highlight areas where machine\nlearning can uniquely contribute to advancing disaster response for populations\nmost vulnerable to climate change.</p>"
+  },
+  {
+    "title": "Stress-testing the coupled behavior of hybrid physics-machine learning\n  climate simulations on an unseen, warmer climate",
+    "date": "2024-01-04",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Climate Change"
+    ],
+    "author": {
+      "name": "Jerry Lin",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2401.02098v1"
+    },
+    "publicTags": [],
+    "summary": "Accurate and computationally-viable representations of clouds and turbulence\nare a long-standing challenge for climate model development. Traditional\nparameterizations that crudely but efficiently approximate these processes are\na leading source of uncertainty in long-term projected warming and\nprecipitation patterns. Machine Learning (ML)-based parameterizations have long\nbeen hailed as a promising alternative with the potential to yield higher\naccuracy at a fraction of the cost of more explicit simulations. However, these\nML variants are often unpredictably unstable and inaccurate in \\textit{coupled}\ntesting (i.e. in a downstream hybrid simulation task where they are dynamically\ninteracting with the large-scale climate model). These issues are exacerbated\nin out-of-distribution climates. Certain design decisions such as\n``climate-invariant\" feature transformation for moisture inputs, input vector\nexpansion, and temporal history incorporation have been shown to improve\ncoupled performance, but they may be insufficient for coupled\nout-of-distribution generalization. If feature selection and transformations\ncan inoculate hybrid physics-ML climate models from non-physical,\nout-of-distribution extrapolation in a changing climate, there is far greater\npotential in extrapolating from observational data. Otherwise, training on\nmultiple simulated climates becomes an inevitable necessity. While our results\nshow generalization benefits from these design decisions, the obtained\nimprovment does not sufficiently preclude the necessity of using multi-climate\nsimulated training data.",
+    "sourceUrl": "http://arxiv.org/abs/2401.02098v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Accurate and computationally-viable representations of clouds and turbulence\nare a long-standing challenge for climate model development. Traditional\nparameterizations that crudely but efficiently approximate these processes are\na leading source of uncertainty in long-term projected warming and\nprecipitation patterns. Machine Learning (ML)-based parameterizations have long\nbeen hailed as a promising alternative with the potential to yield higher\naccuracy at a fraction of the cost of more explicit simulations. However, these\nML variants are often unpredictably unstable and inaccurate in \\textit{coupled}\ntesting (i.e. in a downstream hybrid simulation task where they are dynamically\ninteracting with the large-scale climate model). These issues are exacerbated\nin out-of-distribution climates. Certain design decisions such as\n``climate-invariant\" feature transformation for moisture inputs, input vector\nexpansion, and temporal history incorporation have been shown to improve\ncoupled performance, but they may be insufficient for coupled\nout-of-distribution generalization. If feature selection and transformations\ncan inoculate hybrid physics-ML climate models from non-physical,\nout-of-distribution extrapolation in a changing climate, there is far greater\npotential in extrapolating from observational data. Otherwise, training on\nmultiple simulated climates becomes an inevitable necessity. While our results\nshow generalization benefits from these design decisions, the obtained\nimprovment does not sufficiently preclude the necessity of using multi-climate\nsimulated training data.</p>"
+  },
+  {
+    "title": "Learning Radiative Transfer Models for Climate Change Applications in\n  Imaging Spectroscopy",
+    "date": "2019-06-08",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Environmental Science"
+    ],
+    "author": {
+      "name": "Shubhankar Deshpande",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/1906.03479v1"
+    },
+    "publicTags": [],
+    "summary": "According to a recent investigation, an estimated 33-50% of the world's coral\nreefs have undergone degradation, believed to be as a result of climate change.\nA strong driver of climate change and the subsequent environmental impact are\ngreenhouse gases such as methane. However, the exact relation climate change\nhas to the environmental condition cannot be easily established. Remote sensing\nmethods are increasingly being used to quantify and draw connections between\nrapidly changing climatic conditions and environmental impact. A crucial part\nof this analysis is processing spectroscopy data using radiative transfer\nmodels (RTMs) which is a computationally expensive process and limits their use\nwith high volume imaging spectrometers. This work presents an algorithm that\ncan efficiently emulate RTMs using neural networks leading to a multifold\nspeedup in processing time, and yielding multiple downstream benefits.",
+    "sourceUrl": "http://arxiv.org/abs/1906.03479v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>According to a recent investigation, an estimated 33-50% of the world's coral\nreefs have undergone degradation, believed to be as a result of climate change.\nA strong driver of climate change and the subsequent environmental impact are\ngreenhouse gases such as methane. However, the exact relation climate change\nhas to the environmental condition cannot be easily established. Remote sensing\nmethods are increasingly being used to quantify and draw connections between\nrapidly changing climatic conditions and environmental impact. A crucial part\nof this analysis is processing spectroscopy data using radiative transfer\nmodels (RTMs) which is a computationally expensive process and limits their use\nwith high volume imaging spectrometers. This work presents an algorithm that\ncan efficiently emulate RTMs using neural networks leading to a multifold\nspeedup in processing time, and yielding multiple downstream benefits.</p>"
+  },
+  {
+    "title": "Towards Designing Social Interventions For Online Climate Change\n  Denialism Discussions",
+    "date": "2025-07-09",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "AI Ethics"
+    ],
+    "author": {
+      "name": "Ruican Zhong",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2507.06561v2"
+    },
+    "publicTags": [],
+    "summary": "As conspiracy theories gain traction, it has become crucial to research\neffective intervention strategies that can foster evidence and science-based\ndiscussions in conspiracy theory communities online. This study presents a\nnovel framework using insider language to contest conspiracy theory ideology in\nclimate change denialism on Reddit. Focusing on discussions in two Reddit\ncommunities, our research investigates reactions to pro-social and\nevidence-based intervention messages for two cohorts of users: climate change\ndeniers and climate change supporters. Specifically, we combine manual and\ngenerative AI-based methods to craft intervention messages and deploy the\ninterventions as replies on Reddit posts and comments through transparently\nlabeled bot accounts. On the one hand, we find that evidence-based\ninterventions with neutral language foster positive engagement, encouraging\nopen discussions among believers of climate change denialism. On the other,\nclimate change supporters respond positively, actively participating and\npresenting additional evidence. Our study contributes valuable insights into\nthe process and challenges of automatically delivering interventions in\nconspiracy theory communities on social media, and helps inform future research\non social media interventions.",
+    "sourceUrl": "http://arxiv.org/abs/2507.06561v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>As conspiracy theories gain traction, it has become crucial to research\neffective intervention strategies that can foster evidence and science-based\ndiscussions in conspiracy theory communities online. This study presents a\nnovel framework using insider language to contest conspiracy theory ideology in\nclimate change denialism on Reddit. Focusing on discussions in two Reddit\ncommunities, our research investigates reactions to pro-social and\nevidence-based intervention messages for two cohorts of users: climate change\ndeniers and climate change supporters. Specifically, we combine manual and\ngenerative AI-based methods to craft intervention messages and deploy the\ninterventions as replies on Reddit posts and comments through transparently\nlabeled bot accounts. On the one hand, we find that evidence-based\ninterventions with neutral language foster positive engagement, encouraging\nopen discussions among believers of climate change denialism. On the other,\nclimate change supporters respond positively, actively participating and\npresenting additional evidence. Our study contributes valuable insights into\nthe process and challenges of automatically delivering interventions in\nconspiracy theory communities on social media, and helps inform future research\non social media interventions.</p>"
+  },
+  {
+    "title": "Towards A Comprehensive Assessment of AI's Environmental Impact",
+    "date": "2024-05-22",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Environmental Science"
+    ],
+    "author": {
+      "name": "Srija Chakraborty",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2405.14004v1"
+    },
+    "publicTags": [],
+    "summary": "Artificial Intelligence, machine learning (AI/ML) has allowed exploring\nsolutions for a variety of environmental and climate questions ranging from\nnatural disasters, greenhouse gas emission, monitoring biodiversity,\nagriculture, to weather and climate modeling, enabling progress towards climate\nchange mitigation. However, the intersection of AI/ML and environment is not\nalways positive. The recent surge of interest in ML, made possible by\nprocessing very large volumes of data, fueled by access to massive compute\npower, has sparked a trend towards large-scale adoption of AI/ML. This interest\nplaces tremendous pressure on natural resources, that are often overlooked and\nunder-reported. There is a need for a framework that monitors the environmental\nimpact and degradation from AI/ML throughout its lifecycle for informing\npolicymakers, stakeholders to adequately implement standards and policies and\ntrack the policy outcome over time. For these policies to be effective, AI's\nenvironmental impact needs to be monitored in a spatially-disaggregated, timely\nmanner across the globe at the key activity sites. This study proposes a\nmethodology to track environmental variables relating to the multifaceted\nimpact of AI around datacenters using openly available energy data and globally\nacquired satellite observations. We present a case study around Northern\nVirginia, United States that hosts a growing number of datacenters and observe\nchanges in multiple satellite-based environmental metrics. We then discuss the\nsteps to expand this methodology for comprehensive assessment of AI's\nenvironmental impact across the planet. We also identify data gaps and\nformulate recommendations for improving the understanding and monitoring\nAI-induced changes to the environment and climate.",
+    "sourceUrl": "http://arxiv.org/abs/2405.14004v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Artificial Intelligence, machine learning (AI/ML) has allowed exploring\nsolutions for a variety of environmental and climate questions ranging from\nnatural disasters, greenhouse gas emission, monitoring biodiversity,\nagriculture, to weather and climate modeling, enabling progress towards climate\nchange mitigation. However, the intersection of AI/ML and environment is not\nalways positive. The recent surge of interest in ML, made possible by\nprocessing very large volumes of data, fueled by access to massive compute\npower, has sparked a trend towards large-scale adoption of AI/ML. This interest\nplaces tremendous pressure on natural resources, that are often overlooked and\nunder-reported. There is a need for a framework that monitors the environmental\nimpact and degradation from AI/ML throughout its lifecycle for informing\npolicymakers, stakeholders to adequately implement standards and policies and\ntrack the policy outcome over time. For these policies to be effective, AI's\nenvironmental impact needs to be monitored in a spatially-disaggregated, timely\nmanner across the globe at the key activity sites. This study proposes a\nmethodology to track environmental variables relating to the multifaceted\nimpact of AI around datacenters using openly available energy data and globally\nacquired satellite observations. We present a case study around Northern\nVirginia, United States that hosts a growing number of datacenters and observe\nchanges in multiple satellite-based environmental metrics. We then discuss the\nsteps to expand this methodology for comprehensive assessment of AI's\nenvironmental impact across the planet. We also identify data gaps and\nformulate recommendations for improving the understanding and monitoring\nAI-induced changes to the environment and climate.</p>"
+  },
+  {
+    "title": "Interpretable AI-Driven Discovery of Terrain-Precipitation Relationships\n  for Enhanced Climate Insights",
+    "date": "2023-09-27",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Climate Change"
+    ],
+    "author": {
+      "name": "Hao Xu",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2309.15400v2"
+    },
+    "publicTags": [],
+    "summary": "Despite the remarkable strides made by AI-driven models in modern\nprecipitation forecasting, these black-box models cannot inherently deepen the\ncomprehension of underlying mechanisms. To address this limitation, we propose\nan AI-driven knowledge discovery framework known as genetic\nalgorithm-geographic weighted regression (GA-GWR). Our approach seeks to unveil\nthe explicit equations that govern the intricate relationship between\nprecipitation patterns and terrain characteristics in regions marked by complex\nterrain. Through this AI-driven knowledge discovery, we uncover previously\nundisclosed explicit equations that shed light on the connection between\nterrain features and precipitation patterns. These equations demonstrate\nremarkable accuracy when applied to precipitation data, outperforming\nconventional empirical models. Notably, our research reveals that the\nparameters within these equations are dynamic, adapting to evolving climate\npatterns. Ultimately, the unveiled equations have practical applications,\nparticularly in fine-scale downscaling for precipitation predictions using\nlow-resolution future climate data. This capability offers invaluable insights\ninto the anticipated changes in precipitation patterns across diverse terrains\nunder future climate scenarios, which enhances our ability to address the\nchallenges posed by contemporary climate science.",
+    "sourceUrl": "http://arxiv.org/abs/2309.15400v2",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Despite the remarkable strides made by AI-driven models in modern\nprecipitation forecasting, these black-box models cannot inherently deepen the\ncomprehension of underlying mechanisms. To address this limitation, we propose\nan AI-driven knowledge discovery framework known as genetic\nalgorithm-geographic weighted regression (GA-GWR). Our approach seeks to unveil\nthe explicit equations that govern the intricate relationship between\nprecipitation patterns and terrain characteristics in regions marked by complex\nterrain. Through this AI-driven knowledge discovery, we uncover previously\nundisclosed explicit equations that shed light on the connection between\nterrain features and precipitation patterns. These equations demonstrate\nremarkable accuracy when applied to precipitation data, outperforming\nconventional empirical models. Notably, our research reveals that the\nparameters within these equations are dynamic, adapting to evolving climate\npatterns. Ultimately, the unveiled equations have practical applications,\nparticularly in fine-scale downscaling for precipitation predictions using\nlow-resolution future climate data. This capability offers invaluable insights\ninto the anticipated changes in precipitation patterns across diverse terrains\nunder future climate scenarios, which enhances our ability to address the\nchallenges posed by contemporary climate science.</p>"
+  },
+  {
+    "title": "DeepEn2023: Energy Datasets for Edge Artificial Intelligence",
+    "date": "2023-11-30",
+    "contentGroup": "Articles",
+    "internalTags": [
+      "Climate Change"
+    ],
+    "author": {
+      "name": "Xiaolong Tu",
+      "email": "",
+      "organization": ""
+    },
+    "publication": {
+      "name": "arXiv",
+      "url": "http://arxiv.org/abs/2312.00103v1"
+    },
+    "publicTags": [],
+    "summary": "Climate change poses one of the most significant challenges to humanity. As a\nresult of these climatic changes, the frequency of weather, climate, and\nwater-related disasters has multiplied fivefold over the past 50 years,\nresulting in over 2 million deaths and losses exceeding $3.64 trillion USD.\nLeveraging AI-powered technologies for sustainable development and combating\nclimate change is a promising avenue. Numerous significant publications are\ndedicated to using AI to improve renewable energy forecasting, enhance waste\nmanagement, and monitor environmental changes in real time. However, very few\nresearch studies focus on making AI itself environmentally sustainable. This\noversight regarding the sustainability of AI within the field might be\nattributed to a mindset gap and the absence of comprehensive energy datasets.\nIn addition, with the ubiquity of edge AI systems and applications, especially\non-device learning, there is a pressing need to measure, analyze, and optimize\ntheir environmental sustainability, such as energy efficiency. To this end, in\nthis paper, we propose large-scale energy datasets for edge AI, named\nDeepEn2023, covering a wide range of kernels, state-of-the-art deep neural\nnetwork models, and popular edge AI applications. We anticipate that DeepEn2023\nwill improve transparency in sustainability in on-device deep learning across a\nrange of edge AI systems and applications. For more information, including\naccess to the dataset and code, please visit\nhttps://amai-gsu.github.io/DeepEn2023.",
+    "sourceUrl": "http://arxiv.org/abs/2312.00103v1",
+    "language": "en",
+    "readingTime": 1,
+    "imageUrl": "",
+    "relatedContent": [],
+    "content": "<p>Climate change poses one of the most significant challenges to humanity. As a\nresult of these climatic changes, the frequency of weather, climate, and\nwater-related disasters has multiplied fivefold over the past 50 years,\nresulting in over 2 million deaths and losses exceeding $3.64 trillion USD.\nLeveraging AI-powered technologies for sustainable development and combating\nclimate change is a promising avenue. Numerous significant publications are\ndedicated to using AI to improve renewable energy forecasting, enhance waste\nmanagement, and monitor environmental changes in real time. However, very few\nresearch studies focus on making AI itself environmentally sustainable. This\noversight regarding the sustainability of AI within the field might be\nattributed to a mindset gap and the absence of comprehensive energy datasets.\nIn addition, with the ubiquity of edge AI systems and applications, especially\non-device learning, there is a pressing need to measure, analyze, and optimize\ntheir environmental sustainability, such as energy efficiency. To this end, in\nthis paper, we propose large-scale energy datasets for edge AI, named\nDeepEn2023, covering a wide range of kernels, state-of-the-art deep neural\nnetwork models, and popular edge AI applications. We anticipate that DeepEn2023\nwill improve transparency in sustainability in on-device deep learning across a\nrange of edge AI systems and applications. For more information, including\naccess to the dataset and code, please visit\nhttps://amai-gsu.github.io/DeepEn2023.</p>"
+  }
+]
