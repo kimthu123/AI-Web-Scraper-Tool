@@ -3,7 +3,7 @@ An AI-powered research scraper that automatically expands user queries, collects
 Designed to speed up research — especially for topics like **AI tackling climate change**.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kimthu123/AI-Web-Scraper-Tool/main/preview.png" width="85%" alt="Project Preview"/>
+  <img src="https://raw.githubusercontent.com/kimthu123/AI-Web-Scraper-Tool/main/preview.jpeg" width="85%" alt="Project Preview"/>
 </p>
 
 ---
